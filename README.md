@@ -34,6 +34,10 @@ The Cognisant organisation also has an *Active Software Development* board, whic
 - *Ready for Deployment*
 - *Deployed*
 
+At the start of a cycle, cards which are going to be actioned are copied from the organisation boards into the *Current Cycle* list.
+
+At the end of a cycle, the *Deployed* list is renamed to include the current date and archived. A new empty list is created to replace it.
+
 ### Labels
 
 The following label names apply to all main organisation boards. These labels are:
