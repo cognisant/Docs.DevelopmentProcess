@@ -2,15 +2,14 @@
 
 All development projects will be stored in a Git repository hosted on Github.com. 
 
-# Branching Model
-
 ## Master
 
 All repositories will contain a branch named `master`. This contains code which has been delivered to customers, every commit on master should be tagged as a release.
 
 ## Feature Branches
 
-All development of new features should be performed on a feature branch, named `feature/<description>`. For large peices of work where multiple developers are collaborating, it may be necessary to create additional sub-branches during the development of a feature.
+All development of new features should be performed on a feature branch, named `feature/<description>`.
+
 When a feature branch is created a Github pull request should be started. This can be used for discussion and code review while work is still in progress.
 
 Once development of a feature is complete:
@@ -28,6 +27,10 @@ Once development of a feature is complete:
 In normal circumstances we should try to release features independently as soon as development is complete.
 In the event that multiple features are to be bundled together into a single release, a release branch named `release/<description>` should be created and have all features merged into it
 The contents of the release branch should then be tested and released in the manner described above for feature branches.
+
+## Support Branches
+
+Something about support branches.
 
 ## Continuous Integration
 
