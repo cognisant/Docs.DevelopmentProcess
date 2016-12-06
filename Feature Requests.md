@@ -1,6 +1,5 @@
-# Managing the backlog of changes
+## Feature Requests
 
-## Gathering Requirements
 Our primary means of gathering requirements is the [Feature request form](https://github.com/cognisant/trello-form). This is accessed via a web browser at a url unique to each Cognisant customer. It invites users to provide:
 
 - A description of a problem
