@@ -8,4 +8,5 @@ For more details, refer to the articles below.
 
 ## Table of Contents
 
-1. [Feature Requests](1 Feature Requests.md)
+1. [Feature Requests](Feature Requests.md)
+2. [The Trello Backlog](Trello Backlog.md)
