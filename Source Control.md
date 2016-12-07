@@ -49,6 +49,8 @@ A support branch named `support/1.1.X` should be created based on the v1.1.1 com
 A feature or hotfix branch should be created, tested, and merged into `support/1.1.X` using the process described above for feature branches.
 Commits on this branch will be released, starting at version 1.1.2.
 
+If this fix also needs to be applied to 1.2.0, the relevant commits should be cherry picked onto a feature branch created from master.
+
 ## Continuous Integration
 
 Commits to this repository will be automatically detected by Teamcity, which will build, test and (if successful) produce a deployable set of artifacts.
