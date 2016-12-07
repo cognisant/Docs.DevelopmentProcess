@@ -31,6 +31,7 @@ The contents of the release branch should then be tested and released in the man
 ## Support Branches
 
 Occasionally it may be necessary to release an emergency bugfix to something other than the current release on master. This will normally be due to a customer not yet having validated and deployed the most current release.
+
 If this occurs, a support branch named `support/X.X` will be created by branching from the appropriate master version.
 Hotfixes or features can then be branched from this support branch, every commit on the support branch will be considered a release, similar to the commits on master. These releases will receive a version number between that of the base version and the subsequent version on master.
 
@@ -45,7 +46,7 @@ Imagine `master` contains the following releases:
 And it becomes necessary to release a fix for a bug in 1.1.1.
 
 A support branch named `support/1.1.X` should be created based on the v1.1.1 commit.
-A feature or hotfix branch should be created, tested, and merged using the process described above for feature branches.
+A feature or hotfix branch should be created, tested, and merged into `support/1.1.X` using the process described above for feature branches.
 Commits on this branch will be released, starting at version 1.1.2.
 
 ## Continuous Integration
