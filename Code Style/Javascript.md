@@ -44,24 +44,38 @@ Each project will have the [Editor Config](http://editorconfig.org/) provided by
 
 The AirBnB style guide has been encoded into a set of eslint rules. These can be easily imported into a project using the npm package [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
-* Install the package `npm install --save-dev eslint-config-airbnb`
-* Add an `.eslintrc` file if one does not exist, with the following contents: ```{
-"env": {
+Install the package.
+`npm install --save-dev eslint-config-airbnb`.
+
+Add an `.eslintrc` file if one does not exist. The following setup will work for most projects: 
+```
+{
+  "env": {
     "browser": true
-},
+  },
 
-"extends": [
+  "extends": [
     "airbnb"
-],
+  ],
 
-"rules": {
+  "rules": {
     "no-console": 0,
     "no-alert": 0
+  }
 }
-}```
-* Add npm scripts to `package.json` to run the linter. ``` "scripts": {
-    "lint": "eslint --ext .js --ext .jsx ./src",
-    "fix": "eslint --ext .js --ext .jsx --fix ./src"
-}```
-* Make sure eslint is run as part of a release build. An easy way to do this is to ad a pre step to whatever npm script runs the build. For example, if you use `npm run dist` to build for production, add a `predist` script which will automatically run eslint first:
-`"predist": "npm run lint"`.
+```
+
+Add npm scripts to `package.json` to run the linter.
+```
+"scripts": {
+  "lint": "eslint --ext .js --ext .jsx ./src",
+  "fix": "eslint --ext .js --ext .jsx --fix ./src"
+}
+```
+
+Make sure eslint is run as part of a CI build. An easy way to do this is to ad a pre step to whatever npm script runs the build. For example, if you use `npm run dist` to build for production, add a `predist` script which will automatically run eslint first
+``` 
+"scripts": {
+  "predist": "npm run lint"`
+}
+```
