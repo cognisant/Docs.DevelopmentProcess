@@ -26,11 +26,7 @@ This is especially useful for fixing incorrect formatting before commiting.
 
 Optionally, it is possible to configure your editor to run this every time you save.
 
-[Atom](https://atom.io/packages/linter-eslint)
-[Vim](https://github.com/w0rp/ale)
-and 
-[Sublime](https://github.com/TheSavior/ESLint-Formatter)
-all have plugins. For other editors googling `eslint fix <editorname>` will probably find something.
+[Atom](https://atom.io/packages/linter-eslint), [Vim](https://github.com/w0rp/ale) and [Sublime](https://github.com/TheSavior/ESLint-Formatter) all have plugins. For other editors googling `eslint fix <editorname>` will probably find something.
 
 We might want to look into [Prettier](https://prettier.io/) for this in the future?
 
@@ -76,6 +72,6 @@ Add npm scripts to `package.json` to run the linter.
 Make sure eslint is run as part of a CI build. An easy way to do this is to ad a pre step to whatever npm script runs the build. For example, if you use `npm run dist` to build for production, add a `predist` script which will automatically run eslint first
 ``` 
 "scripts": {
-  "predist": "npm run lint"`
+  "predist": "npm run lint"
 }
 ```
