@@ -2,13 +2,4 @@
 
 ## Introduction
 
-Cognisant develops software for several organisations. Development is done in two-week cycles. Software development cycles get defined and scheduled in Trello boards. These boards are also used to gather and discuss feature requests from users.
-
-For more details, refer to the articles below.
-
-## Table of Contents
-
-1. [Feature Requests](Feature Requests.md)
-2. [The Trello Backlog](Trello Backlog.md)
-3. [Development Cycles](Cycles.md)
-4. [Source Control](Source Control.md)
+Cognisant develops software products for several companies. It uses the [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) framework, with development work arranged in two-week [sprints](https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint). Together, Cognisant and its customers define what development work goes into each sprint. This guide describes how that process works.
