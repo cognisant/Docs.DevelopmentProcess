@@ -6,8 +6,8 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 
 ## Contents
 
-- [Feature Requests](/Feature Requests.md)
-- [Planning Poker](/Planning Poker.md)
-- [Source Control](/Source Control.md)
+- [Feature Requests](feature-requests.md)
+- [Planning Poker](planning-poker.md)
+- [Source Control](source-control.md)
 - Code Style
-  - [JavaScript](/Code Style/JavaScript.md)
+  - [JavaScript](code-style/javascript.md)
