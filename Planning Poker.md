@@ -1,9 +1,11 @@
-# Planning Poker Talking Points
+# Planning Poker
+
+## Talking Points
 
 - Business context
 - Outline of (possible) solutions
 - Is this partly completed already? How little/much?
-- Could this be based on something that already exists? 
+- Could this be based on something that already exists?
 - What systems will this interact with?
 - Do APIs etc already exist for this?
 - Changes required to current systems?
