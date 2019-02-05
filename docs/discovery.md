@@ -4,7 +4,7 @@ Bath ASU employees can add cards to the Software Development Trello board using 
 
 When someone submits information using this form, a card is created in the Inbox list on the Software Development Trello board. The card is automatically formatted using a pre-defined template:
 
-```
+```markdown
 # Original Description
 
 Requested by [name] ([email])
@@ -36,6 +36,7 @@ Fully-specified stories and bugs should clearly explain what problem is being so
 
 Stories look like:
 
+```markdown
 > # Story
 >
 > As a [role], I want [thing], so that [reason].
@@ -49,9 +50,11 @@ Stories look like:
 > # Original description
 >
 > ... (as above)
+```
 
 Bugs look like:
 
+```markdown
 > # How to Reproduce
 >
 > ...
@@ -67,4 +70,4 @@ Bugs look like:
 > # Impact
 >
 > ...
-
+```
