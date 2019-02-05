@@ -26,4 +26,45 @@ Requested by [name] ([email])
 > [business impact]
 ```
 
-Occasionally, the software development team will manually add cards to Trello at the request of Bath ASU management.
+Occasionally, the software development team will manually add cards to Trello at the request of Bath ASU management. When this happens, cards should follow the same format as above.
+
+## Moving on from Ideas
+
+Cards are normally added to the Software Development Trello board as ideas. These ideas get researched and turned into fully-specified _stories_ or _bugs_. Both story cards and bug cards use a consistent structure to help people understand the requirements and the genesis of the value being proposed.
+
+Fully-specified stories and bugs should clearly explain what problem is being solved, how it should be solved, and what the impact of that solution is on the business.
+
+Stories look like:
+
+> # Story
+>
+> As a [role], I want [thing], so that [reason].
+>
+> # Acceptance Criteria
+>
+> -
+>
+> ---
+>
+> # Original description
+>
+> ... (as above)
+
+Bugs look like:
+
+> # How to Reproduce
+>
+> ...
+>
+> # Expected Behaviour
+>
+> ...
+>
+> # Actual Behaviour
+>
+> ...
+>
+> # Impact
+>
+> ...
+
