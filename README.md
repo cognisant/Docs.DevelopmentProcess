@@ -15,7 +15,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 
 ### Process
 
-1. [Discovery](discovery.md)
+1. [Discovery](docs/discovery.md)
 1. Triage
 1. Prioritisation
 1. Research
@@ -34,13 +34,13 @@ Cognisant develops software products for several companies. It uses the [Scrum](
   1. Demos
   1. Retrospective
 
-- [Feature Requests](feature-requests.md)
-- [Planning Poker](planning-poker.md)
+- [Feature Requests](docs/feature-requests.md)
+- [Planning Poker](docs/planning-poker.md)
 
 ### Design
 
 ### Development
 
-- [Source Control](source-control.md)
+- [Source Control](docs/source-control.md)
 - Code Style
-  - [JavaScript](code-style/javascript.md)
+  - [JavaScript](docs/code-style/javascript.md)
