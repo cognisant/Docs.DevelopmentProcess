@@ -37,37 +37,37 @@ Fully-specified stories and bugs should clearly explain what problem is being so
 Stories look like:
 
 ```markdown
-> # Story
->
-> As a [role], I want [thing], so that [reason].
->
-> # Acceptance Criteria
->
-> -
->
-> ---
->
-> # Original description
->
-> ... (as above)
+# Story
+
+As a [role], I want [thing], so that [reason].
+
+# Acceptance Criteria
+
+...
+
+---
+
+# Original description
+
+... (as above)
 ```
 
 Bugs look like:
 
 ```markdown
-> # How to Reproduce
->
-> ...
->
-> # Expected Behaviour
->
-> ...
->
-> # Actual Behaviour
->
-> ...
->
-> # Impact
->
-> ...
+# How to Reproduce
+
+...
+
+# Expected Behaviour
+
+...
+
+# Actual Behaviour
+
+...
+
+# Impact
+
+...
 ```
