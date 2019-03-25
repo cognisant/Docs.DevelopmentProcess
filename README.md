@@ -79,6 +79,9 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 ### Development
 
-- [Source Control](docs/source-control.md)
+- [Source Control](docs/source-control.md) (needs updating)
+- Teamcity
+- Octopus
 - Code Style
-    - [JavaScript](docs/code-style/javascript.md)
+    - [JavaScript](docs/code-style/javascript.md) (needs updating)
+    - CSharp
