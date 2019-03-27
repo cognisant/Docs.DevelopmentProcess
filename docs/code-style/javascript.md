@@ -1,6 +1,6 @@
 # JavaScript
 
-For JavaScript projects we will aim to adhere as closely as possible to the [AirBnB JavaScript style Guide](https://github.com/airbnb/javascript), with the addition of [Prettier](https://prettier.io/) to enforce a consistent code style.
+For JavaScript projects we will aim to adhere as closely as possible to the [AirBnB JavaScript style Guide](https://github.com/airbnb/javascript), with the addition of [Prettier](https://prettier.io/) to enforce a consistent formatting.
 
 # React
 
@@ -26,11 +26,35 @@ A code editor set up with [Prettier](https://prettier.io/) to auto-format code b
 
 Files should not be committed to git unless they have had Prettier run against them first.
 
+### Auto Fixing
+
+ESLint can automatically fix many types of issues. Running `npm run fix` should do this for all files in the project if it has been configured properly.
+
+Running Prettier with the `--write` parameter will automatically format code. Running `npm run format` should do this for all files in the project if it has been configured properly.
+
+These tools are especially useful for fixing incorrect formatting before committing.
+
+It is desirable that your editor is set up to do this automatically on save, instructions for this vary depending on editor and searching for "auto format on save <editor name>" should find the correct instructions, and work as long as the correct plugins are installed for your editor of choice.
+
 # Setting up JS Projects
 
 ## Editor Config
 
-Each project will have the [Editor Config](http://editorconfig.org/) provided by AirBnB included in the root folder of the JavaScript web UI. This file can be found [here](https://github.com/airbnb/javascript/blob/master/.editorconfig).
+Each project will have the below [Editor Config](http://editorconfig.org/) file included in the root folder of the JavaScript web UI. It is based on the file provided by AirBnB [here](https://github.com/airbnb/javascript/blob/master/.editorconfig).
+
+```
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+# editorconfig-tools is unable to ignore longs strings or urls
+max_line_length = 100
+```
 
 ## AirBnB ESLint Rules
 
