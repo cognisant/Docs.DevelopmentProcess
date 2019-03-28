@@ -77,5 +77,5 @@ The team may need to consult the user to determine whether the idea adds value. 
 - Teamcity
 - Octopus
 - Code Style
-  - [JavaScript](docs/code-style/javascript.md) (needs updating)
+  - [JavaScript](docs/code-style/javascript.md)
   - CSharp
