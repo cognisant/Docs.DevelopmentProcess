@@ -53,6 +53,15 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 #### Demos
 
+On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
+
+The demo is an opportunity for the business to provide feedback on the work. 
+Often, any small problems the business points out can be corrected before the end of the day.
+
+This meeting is also a chance for the team to explain how the completed work applies to the business' short term goals.
+
+There is usually a discussion about when the work might be deployed to production and become accessible to users.
+
 #### Retrospective
 
 ## Tools
