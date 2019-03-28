@@ -40,7 +40,7 @@ It is desirable that your editor is set up to do this automatically on save, ins
 
 ## Editor Config
 
-Each project will have the below [Editor Config](http://editorconfig.org/) file included in the root folder of the JavaScript web UI. It is based on the file provided by AirBnB [here](https://github.com/airbnb/javascript/blob/master/.editorconfig).
+Each project will have the below `.editorconfig` file included in the root folder of the JavaScript web UI. It is based on the file provided by AirBnB [here](https://github.com/airbnb/javascript/blob/master/.editorconfig).
 
 ```
 root = true
@@ -64,7 +64,7 @@ The AirBnB style guide has been encoded into a set of ESLint rules. These can be
 
 With a default installation of both Prettier, and the AirBnB ESLint rules, there will be conflicting rules which will cause issues if these are being enforced during build.
 
-Details on how to set up a project which will use both the ESLint AirBnB Rules, and format the code using Prettier can be found [here](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a). The instructions from this article have been provided below with small tweaks to match our usage.
+Details on how to set up a project which will use both the ESLint AirBnB Rules, and format the code using Prettier can be found [here](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a). The instructions from this article have been provided below with tweaks to match our usage.
 
 1. Install the ESLint and Prettier libraries into our project. In your project’s root directory, you will want to run: `npm install -D eslint prettier`.
 2. Install the Airbnb config. If you’re using npm 5+, you can run this shortcut to install the config and all of its dependencies: `npx install-peerdeps --dev eslint-config-airbnb`
@@ -84,14 +84,7 @@ Details on how to set up a project which will use both the ESLint AirBnB Rules, 
 }
 ```
 
-5. Create .prettierrc file in your project’s root directory. This will be where you configure your formatting settings. I have added a few of my own preferences below, but I urge you to read more about the Prettier config file
-
-```
-{
-  "printWidth": 100,
-  "singleQuote": true
-}
-```
+A `.prettierrc` file should not be needed as prettier will use the rules specified in the `.editorconfig` file.
 
 ## Running ESLint and Prettier
 
