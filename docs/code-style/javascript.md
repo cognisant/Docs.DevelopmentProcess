@@ -1,32 +1,32 @@
-# JavaScript
+# JavaScript Code Style
 
 For JavaScript projects we will aim to adhere as closely as possible to the [AirBnB JavaScript style Guide](https://github.com/airbnb/javascript), with the addition of [Prettier](https://prettier.io/) to enforce a consistent formatting.
 
-# React
+## React
 
 For [React](https://reactjs.org) projects, all of the above applies, with the addition of the rules from the [AirBnB React style guide](https://github.com/airbnb/javascript/tree/master/react).
 
-# Development Environment Setup
+## Development Environment Setup
 
 Each developer should configure their programming environment as follows:
 
-## EditorConfig
+### EditorConfig
 
 Code editors should be configured to respect the formatting rules defined by the [Editor Config](http://editorconfig.org/) file included in the git repository. Instructions for your editor can be found [here](http://editorconfig.org/#download).
 
-## ESLint
+### ESLint
 
 A code editor set up to perform live validation of [ESLint](https://eslint.org/) rules will result in less incorrect code being checked into git. You can find a list of plugins for common editors [here](https://eslint.org/docs/user-guide/integrations).
 
 Files should not be committed to git which have ESLint errors or warnings.
 
-## Prettier
+### Prettier
 
 A code editor set up with [Prettier](https://prettier.io/) to auto-format code before saving would result in less badly formatted code being checked into git. Information on editor integration can be found [here](https://prettier.io/docs/en/editors.html).
 
 Files should not be committed to git unless they have had Prettier run against them first.
 
-### Auto Fixing
+#### Auto Fixing
 
 ESLint can automatically fix many types of issues. Running `npm run fix` should do this for all files in the project if it has been configured properly.
 
@@ -36,9 +36,9 @@ These tools are especially useful for fixing incorrect formatting before committ
 
 It is desirable that your editor is set up to do this automatically on save, instructions for this vary depending on editor and searching for "auto format on save <editor name>" should find the correct instructions, and work as long as the correct plugins are installed for your editor of choice.
 
-# Setting up JS Projects
+## Setting up JS Projects
 
-## Editor Config
+### Editor Config
 
 Each project will have the below `.editorconfig` file included in the root folder of the JavaScript web UI. It is based on the file provided by AirBnB [here](https://github.com/airbnb/javascript/blob/master/.editorconfig).
 
@@ -56,11 +56,11 @@ end_of_line = lf
 max_line_length = 100
 ```
 
-## AirBnB ESLint Rules
+### AirBnB ESLint Rules
 
 The AirBnB style guide has been encoded into a set of ESLint rules. These can be easily imported and configured in a project using [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
-## ESLint and Prettier Set Up
+### ESLint and Prettier Set Up
 
 With a default installation of both Prettier, and the AirBnB ESLint rules, there will be conflicting rules which will cause issues if these are being enforced during build.
 
@@ -86,11 +86,11 @@ Details on how to set up a project which will use both the ESLint AirBnB Rules, 
 
 A `.prettierrc` file should not be needed as prettier will use the rules specified in the `.editorconfig` file.
 
-## Running ESLint and Prettier
+### Running ESLint and Prettier
 
 There are many ways of running ESLint and Prettier against the code outside of an editor.
 
-### npm Scripts
+#### npm Scripts
 
 Add npm scripts to `package.json` to run ESLint. Thanks to `eslint-plugin-prettier` we can check all of our style rules simply using ESLint.
 
@@ -110,7 +110,7 @@ Make sure ESLint is run as part of a CI build. An easy way to do this is to add 
 }
 ```
 
-### Webpack
+#### Webpack
 
 If [Webpack](https://webpack.js.org) is being used to build the web project, the plugin `eslint-loader` can be utilized to run ESLint against the files without having to also use an npm script. It can be run using the following rule.
 
@@ -124,7 +124,7 @@ rules: [
 ]
 ```
 
-### Pre-commit Hook
+#### Pre-commit Hook
 
 To try and avoid incorrectly formatted code from being committed to a repository, a pre-commit hook should be used to run both Prettier to reformat the code, and ESLint, prior to code being committed to the repository to ensure no linting issues remain.
 
