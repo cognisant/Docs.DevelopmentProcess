@@ -1,6 +1,6 @@
 # Source Control and Delivery
 
-All development projects will be stored in a Git repository hosted on Github.com. 
+All development projects will be stored in a Git repository hosted on Github.com.
 
 ## Master
 
@@ -19,7 +19,7 @@ Once development of a feature is complete:
 - Code should be reviewed by somebody other than the person who wrote it. This will be enforced by Github branch protection settings.
 - Once testing and code review present no further issues the pull request can be merged to `master`.
 - The merge commit on `master` should be tagged as a release with a semantic version number.
-- This release will then be delivered to customers (hopefully automatically, but process TBC). 
+- This release will then be delivered to customers (hopefully automatically, but process TBC).
 - The customer will perform their own testing, and either reject the release requesting further changes, or deploy the feature.
 
 ## Release Branches
@@ -58,6 +58,3 @@ Commits to this repository will be automatically detected by Teamcity, which wil
 ## Versioning
 
 As part of the teamcity build process, GitVersion will be run to tag the build with an appropriate version number based on the source control branching scheme described above.
-
-
-
