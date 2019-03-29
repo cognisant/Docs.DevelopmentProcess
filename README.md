@@ -55,7 +55,7 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
 
-The demo is an opportunity for the business to provide feedback on the work. 
+The demo is an opportunity for the business to provide feedback on the work.  
 Often, any small problems the business points out can be corrected before the end of the day.
 
 This meeting is also a chance for the team to explain how the completed work applies to the business' short term goals.
@@ -72,9 +72,9 @@ During the retrospective, the team discusses how the sprint went, reflecting on 
 
 The main objective of these meetings is to identify improvements that could be made to the development process.
 
-During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
-At the meeting, the team will review all of the discussion points added to the board. 
-If necessary, the team will attempt to think of a systematic method of addressing the point raised.
+During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.  
+At the meeting, the team will review all of the discussion points added to the board.  
+If necessary, the team will attempt to think of a systematic method of addressing a point raised.  
 Often discussion points are simply something to keep in mind during future sprints, or a small problem that can be immediately addressed with a simple action.
 
 Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
