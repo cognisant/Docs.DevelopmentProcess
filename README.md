@@ -31,9 +31,10 @@ The business intermittently advises the team on their current short-term and lon
 
 At the start of a sprint, the team tries to pick stories relating to the business' current priorities to include in the sprint, rather than work which is a lower priority.
 
-Priorities are also important to keep in mind during **backlog refinement** meetings. It is more important for the team to specify and estimate stories relating to the business' urgent priorities, instead of reviewing more general feature requests.
+Priorities are also important to keep in mind during **backlog refinement** meetings.  
+It is more important for the team to specify and estimate stories relating to the business' urgent priorities, instead of reviewing more general feature requests.
 
-Looking at **epics** labels on Trello cards is an easy way of identifying high-priority stories.
+Looking at **epics** labels on Trello cards is an easy way of identifying high-priority stories.  
 If an epic is a business priority, then all of the stories belonging to that epic are a priority.
 
 ### Research
