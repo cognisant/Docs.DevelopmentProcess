@@ -74,7 +74,7 @@ You can use your private vault to manage passwords for your own work-related acc
 
 There is also company-specific vaults. These are used for managing shared credentials associated with a specific company, or a software system used by that company.
 
-If you need to use the credentials for a shared account, you should find them in the relevant vault.
+If you need to use the credentials of a shared account, you should find them in the relevant vault.
 
 ### Planning Poker Cards
 
