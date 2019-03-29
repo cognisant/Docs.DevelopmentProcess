@@ -39,6 +39,19 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 ### Estimating Effort
 
+The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.  
+These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
+
+After a story has been specified, the team estimates how many points the story is, this is done as a group using **planning poker cards**.  
+The team estimates a points value of a story using their knowledge of the points values of previously completed stories and their magnitude/difficulty.
+
+The smallest of tasks are assigned 1 effort point. A 1 point story could be typo correction or an extremely simple bug fix.  
+The greatest effort value a story can be assigned is 21. 
+
+The number of points the team completes per sprint is used to track productivity. 
+
+How many points the team typically completes in a sprint is considered when planning which 'ready' stories should be included in a sprint.
+
 ### Sprints
 
 #### Sprint Kick-off
