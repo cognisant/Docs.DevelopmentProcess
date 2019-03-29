@@ -79,7 +79,7 @@ Often discussion points are simply something to keep in mind during future sprin
 
 Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
 
-An example of a process improvement derived from a retrospective meeting is [the work in progress limit]().
+An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
 ## Tools
 
