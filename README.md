@@ -41,6 +41,8 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 ### Sprints
 
+A sprint is a time-box during which a ["Done"](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint. 
+
 #### Sprint Kick-off
 
 #### Selecting Stories
