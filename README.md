@@ -42,7 +42,7 @@ A Trello card can be considered ready to be worked on if it meets the criteria d
 - I: Independent (of other stories)
 - N: Negotiable (does not prescribe exactly one solution)
 - V: Valuable (on its own)
-- E: Estimable (Approximately - using the process defined in the [Estimating Effort](#estimating-effort))
+- E: Estimable (approximately - using the process defined in the [Estimating Effort](#estimating-effort) section)
 - S: Small (so that it fits within a sprint)
 - T: Testable (so that we can verify it meets the acceptance criteria)
 
