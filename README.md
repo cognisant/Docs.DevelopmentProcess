@@ -49,6 +49,15 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 #### Daily Scrums
 
+ On each day of a sprint at 1:30pm the team holds a daily meeting called the “daily scrum”. For these meetings we gather around the sprint board. Everyone who is able should stand for this meeting, which helps to encourage brevity.
+ The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and usually dealt with immediately after the meeting. During the daily scrum, each team member answers the following three questions:
+
+- What did you do since the last meeting?
+- What will you do before the next meeting?
+- Are there any impediments in your way?
+
+If any impediments are identified, we should aim to resolve them as soon as possible. For issues which cannot be resolved immediately, one team member should take responsibility for following up and ensuring that it is ultimately resolved.
+
 #### Definition of Done
 
 #### Demos
