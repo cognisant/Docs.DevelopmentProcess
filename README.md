@@ -43,9 +43,12 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 #### Sprint Kick-off
 
-#### Selecting Stories
+On the first Monday of a sprint at 10am the sprint begins with a kick-off meeting.
+During this meeting the team engages in the following activities to prepare for the sprint:
 
-#### Generating Tasks
+- For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and estimated.
+- A number of additional stories should be selected, which the team will aim to complete during the new sprint. The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint.
+- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint. Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story.
 
 #### Daily Scrums
 
