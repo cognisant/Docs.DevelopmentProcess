@@ -74,6 +74,22 @@ There is usually a discussion about when the work might be deployed to productio
 
 ### Sprint Board
 
+The development team has a large, physical whiteboard in their workspace called the _sprint board_. The sprint board has three main sections, each used to track a different aspect of the sprint.
+
+#### Sprint Progress Columns
+
+Kanban columns occupy most of the sprint board. The team uses these to track the progress of work during a sprint. See [Tracking Progress](#Tracking-Progress) for more details.
+
+Each task is represented by a Post-it on the board. These Post-its move through the columns on the board throughout the sprint. At the end of a sprint, most (if not all) of the task Post-its will have migrated from the “To do” column through the “Doing” and “Verify” columns to the “Done” column.
+
+#### Distractions
+
+There is a reserved area on the sprint board for distractions. Development team members add a Post-it to this area whenever they deviate from sprint-related work. Team members add the duration of the distraction and their initials to the Post-it. The development team reviews distractions during the [retrospective](#Retrospective).
+
+#### Retrospective Goals
+
+There is an area on the sprint board for highlighting the current retrospective goals. These act as constant reminders to the team about what the agreed goals are for improving the process.
+
 ### Trello
 
 ## Guidelines
