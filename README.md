@@ -37,6 +37,17 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 #### Definition of Ready
 
+A Trello card can be considered ready to be worked on if it meets the criteria defined by the INVEST acronym:
+
+I - Independent (of other stories)
+N - Negotiable (does not prescribe exactly one solution)
+V - Valuable (on its own)
+E - Estimable (Approximately - using the process defined in the [Estimating Effort](#estimating-effort))
+S - Small (so that it fits within a sprint)
+T - Testable (so that we can verify it meets the acceptance criteria)
+
+Once the card is ready it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
+
 ### Estimating Effort
 
 ### Sprints
