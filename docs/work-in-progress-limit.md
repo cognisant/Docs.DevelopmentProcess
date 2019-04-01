@@ -1,4 +1,4 @@
-# The Work in Progress Limit
+# Origin of the Work in Progress Limit
 
 Often at the end of a sprint, the team would have produced a solution for all of the stories on the scrum board. However, the code would have either not been reviewed, or the issues identified in the review were yet to be addressed.  
 The work was not done.
