@@ -64,7 +64,7 @@ If the business member is not happy with the story, the team will rewrite the st
 
 On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
 
-The demo is an opportunity for the business to provide feedback on the work. 
+The demo is an opportunity for the business to provide feedback on the work.  
 Often, any small problems the business points out can be corrected before the end of the day.
 
 This meeting is also a chance for the team to explain how the completed work applies to the business' short term goals.
@@ -72,6 +72,23 @@ This meeting is also a chance for the team to explain how the completed work app
 There is usually a discussion about when the work might be deployed to production and become accessible to users.
 
 #### Retrospective
+
+On the last day of a sprint, after the demo, the team has a retrospective meeting.
+
+Members of the team take it in turns to bring snacks for the whole team to this meeting.
+
+During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
+
+The main objective of these meetings is to identify improvements that could be made to the development process.
+
+During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.  
+At the meeting, the team will review all of the discussion points added to the board.  
+If necessary, the team will attempt to think of a systematic method of addressing a point raised.  
+Often discussion points are simply something to keep in mind during future sprints, or a small problem that can be immediately addressed with a simple action.
+
+Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
+
+An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
 ## Tools
 
