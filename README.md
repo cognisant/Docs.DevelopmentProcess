@@ -66,7 +66,7 @@ There is usually a discussion about when the work might be deployed to productio
 
 On the last day of a sprint, after the demo, the team has a retrospective meeting.
 
-There are snacks at this meeting.
+Members of the team take it in turns to bring snacks for the whole team to this meeting.
 
 During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
