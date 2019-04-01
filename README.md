@@ -68,6 +68,14 @@ There is usually a discussion about when the work might be deployed to productio
 
 ### 1Password
 
+1Password is the password manager the team uses to securely store and share work-related passwords.
+
+Team members use private vaults to manage passwords for their own work-related accounts.
+
+There is also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
+
+If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
+
 ### Planning Poker Cards
 
 ### Slack
