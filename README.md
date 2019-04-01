@@ -70,11 +70,11 @@ There is usually a discussion about when the work might be deployed to productio
 
 1Password is the password manager the team uses to securely store and share work-related passwords.
 
-You can use your private vault to manage passwords for your own work-related accounts.
+Team members use private vaults to manage passwords for their own work-related accounts.
 
-There is also company-specific vaults. These are used for managing shared credentials associated with a specific company, or a software system used by that company.
+There is also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
-If you need to use the credentials of a shared account, you should find them in the relevant vault.
+If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
 
 ### Planning Poker Cards
 
