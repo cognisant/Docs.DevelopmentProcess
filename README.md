@@ -31,6 +31,21 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 #### Writing Stories
 
+Before a request can be worked on, it will be broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it will take many such increments to reach the final solution to the problem originally presented by the customer. This is fine provided that each individual story has value on its own.
+
+The story card will be made up of three sections.
+
+##### User Story
+The user story is a concise description of the change, told from the perspective of the person who requested it. They usually take the following form:
+
+As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
+
+##### Acceptance Criteria
+The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution.
+
+##### Original Request
+The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
+
 #### UI Mockups
 
 #### Business Review
