@@ -4,10 +4,10 @@ For C# projects we will abide to the rules enforced by [StyleCop Analyzers](http
 
 ## Changes
 
-A small number of tweaks have been decided on from the core rules as defined, these are to account for existing preferences that have been used.
+As a team we have decided to make a small number of changes to the default StyleCop rules to reflect existing code style.
 
 - `SA1101` disabled, `SA1101X` enabled: Team preference is to not prefix local class variables with `this`.
-- `SA1309` disabled, `SX1309` and `SX1390S` enabled: Team preferences is for `private` fields to be prefixed with an underscore(`_`).
+- `SA1309` disabled, `SX1309` and `SX1390S` enabled: Team preference is for `private` fields to be prefixed with an underscore(`_`).
 - `SA1602` disabled: Team preference is to not document items within enumerations.
 
 ## Cognisant CodeStyle.CSharp NuGet Packages
