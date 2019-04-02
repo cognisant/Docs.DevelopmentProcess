@@ -110,6 +110,10 @@ Any possible process improvements agreed upon by the team will be trialled in a 
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
+#### Learning
+
+Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources.
+
 #### Tech Debt
 
 Each sprint, two team members are selected to spend a portion of their time working on tech debt. This allows us time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or upating dependencies to ensure we have the latest security patches.
