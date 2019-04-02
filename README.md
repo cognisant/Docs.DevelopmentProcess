@@ -64,6 +64,10 @@ There is usually a discussion about when the work might be deployed to productio
 
 #### Retrospective
 
+#### Learning
+
+Each sprint, two team members are selected to spend a portion of their time learning. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future.
+
 ## Tools
 
 ### 1Password
