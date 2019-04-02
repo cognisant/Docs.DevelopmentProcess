@@ -92,7 +92,7 @@ An example of a process improvement derived from a retrospective meeting is [the
 
 #### Learning
 
-Each sprint, two team members are selected to spend a portion of their time learning. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future.
+Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources.
 
 ## Tools
 
