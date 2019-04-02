@@ -41,7 +41,7 @@ The user story is a concise description of the change, told from the perspective
 As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
 
 ##### Acceptance Criteria
-The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution.
+The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
 
 ##### Original Request
 The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
