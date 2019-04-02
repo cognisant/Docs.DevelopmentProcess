@@ -58,7 +58,27 @@ If the business member is not happy with the story, the team will rewrite the st
 
 #### Daily Scrums
 
+ On each day of a sprint at 1:30pm the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+
+- What did you do since the last meeting to help the team finish the Sprint?
+- What do you plan to do before the next meeting to help the team finish the Sprint?
+- What obstacles are getting in the team's way?
+
+ The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
+
 #### Definition of Done
+
+It is important to have a well defined "definition of done", so that we know when we should call a story complete, and our customers know what to expect. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time, currently it includes the following criteria:
+
+- Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
+- All code conforms to our chosen style for the relevant language. This rule will be relaxed for projects which have not yet been fully converted to conform with our style guide.
+- Documentation has been produced. This should include a detailed description of any new functionality as well as a technical description of any configuration or infrastructure changes required to deploy it.
+- Unit tests have been written where appropriate, and all existing tests are passing.
+- Manual testing has been performed to ensure that the feature works as expected.
+- The change has been demonstrated working to the rest of the team.
+- The automated Teamcity build for the project is succeeding.
+- A pull request has been submitted to the appropriate repository and reviewed by at least one other member of the team.
+- Any required configuration or process changes have been made in Octopus Deploy, so that the change could be deployed with no additional work.
 
 #### Demos
 
@@ -93,6 +113,10 @@ An example of a process improvement derived from a retrospective meeting is [the
 #### Learning
 
 Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources.
+
+#### Tech Debt
+
+Each sprint, two team members are selected to spend a portion of their time working on tech debt. This allows us time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or upating dependencies to ensure we have the latest security patches.
 
 ## Tools
 
