@@ -58,6 +58,14 @@ If the business member is not happy with the story, the team will rewrite the st
 
 #### Daily Scrums
 
+ On each day of a sprint at 1:30pm the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+
+- What did you do since the last meeting to help the team finish the Sprint?
+- What do you plan to do before the next meeting to help the team finish the Sprint?
+- What obstacles are getting in the team's way?
+
+ The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
+
 #### Definition of Done
 
 It is important to have a well defined "definition of done", so that we know when we should call a story complete, and our customers know what to expect. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time, currently it includes the following criteria:
