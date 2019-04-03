@@ -38,6 +38,29 @@ It is more important for the team to specify and estimate stories relating to th
 
 #### Writing Stories
 
+Before a request can be worked on, it will be broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it will take many such increments to reach the final solution to the problem originally presented by the customer. This is fine provided that each individual story has value on its own.
+
+The story card will be made up of three sections.
+
+##### User Story
+The user story is a concise description of the change, told from the perspective of the person who requested it. They usually take the following form:
+
+As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
+
+##### Acceptance Criteria
+The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
+
+##### Original Request
+The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
+
+#### Bug Cards
+Some cards represent software defects rather than user stories. The description of these cards follows a slightly different format in order to describe the steps necessary to reproduce the bug. The sections are as follows:
+
+- **How to Reproduce** - to describe any steps necessary to get the system into an appropriate state, followed by a description of the action which is not working as expected.
+- **Expected Behaviour** - what the user expects to see when taking the action described above.
+- **Actual Behaviour** - the actual (incorrect) behaviour exhibited by the system.
+- **Impact** - a description of the business impact of the bug.
+
 #### Epics
 
 Several separate stories may relate to a single business objective.
