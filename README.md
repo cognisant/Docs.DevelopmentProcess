@@ -48,6 +48,20 @@ If the business member is not happy with the story, the team will rewrite the st
 
 ### Estimating Effort
 
+The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.  
+These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
+
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the fibonacci numbers from 1-21.
+
+The process for estimating a story is as follows.
+
+1. One of the members of the team presents the card to the team, describing the problem and going over the acceptance criteria.
+2. A discussions takes place over changes required to systems, and the extent of testing required.
+3. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
+4. The cards are revealed
+   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13) then the effort for the story is the average of the cards .
+   2. If there is a wider spread (e.g. 3, 5 and 8), then the high and low cards task about why they voted as they did, and then another vote takes place.
+
 ### Sprints
 
 A sprint is a time-box during which a ["Done"](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint. 
