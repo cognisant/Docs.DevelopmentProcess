@@ -42,15 +42,16 @@ The team may need to consult the user to determine whether the idea adds value. 
 The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.  
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
-After a story has been specified, the team estimates how many points the story is, this is done as a group using **planning poker cards**.  
-The team estimates a points value of a story using their knowledge of the points values of previously completed stories and their magnitude/difficulty.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the fibonacci numbers from 1-21.
 
-The smallest of tasks are assigned 1 effort point. A 1 point story could be typo correction or an extremely simple bug fix.  
-The greatest effort value a story can be assigned is 21. 
+The process for estimating a story is as follows.
 
-The number of points the team completes per sprint is used to track productivity. 
-
-How many points the team typically completes in a sprint is considered when planning which 'ready' stories should be included in a sprint.
+1. One of the members of the team presents the card to the team, describing the problem and going over the acceptance criteria.
+2. A discussions takes place over changes required to systems, and the extent of testing required.
+3. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
+4. The cards are revealed
+   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13) then the effort for the story is the average of the cards .
+   2. If there is a wider spread (e.g. 3, 5 and 8), then the high and low cards task about why they voted as they did, and then another vote takes place.
 
 ### Sprints
 
