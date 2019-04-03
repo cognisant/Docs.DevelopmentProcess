@@ -144,7 +144,6 @@ Temporary channels for ad-hoc discussions should be prefixed with `temp`, for ex
 
 Some channels are used with third party integrations to provide notifications. These should be prefixed with `bot`, for example `#bot-monitoring`.
 
-
 ### Sprint Board
 
 The development team has a large, physical whiteboard in their workspace called the _sprint board_. The sprint board has three main sections, each used to track a different aspect of the sprint.
