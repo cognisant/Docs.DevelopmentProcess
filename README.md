@@ -132,6 +132,8 @@ If a team member needs to use the credentials of a shared account, they can find
 
 ### Planning Poker Cards
 
+During [estimation](#estimating-effort) sessions, planning poker cards are used to allow team members to choose then simultaneously reveal their estimate. 6 player decks can be purchased from [https://agilestationery.co.uk/products/estimation-poker-cards](https://agilestationery.co.uk/products/estimation-poker-cards) with the discount code `THANKYOU` to receive 20% off.
+
 ### Slack
 
 ### Sprint Board
