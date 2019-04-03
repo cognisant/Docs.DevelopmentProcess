@@ -92,6 +92,23 @@ During this meeting the team engages in the following activities to prepare for 
 - A number of additional stories should be selected, which the team will aim to complete during the new sprint. The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint. Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story and if necessary change the set of stories selected for the sprint.
 
+#### Tracking Progress
+
+During the sprint, the teams progress on the tasks generated during the sprint kick-off are tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+
+![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
+
+The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
+Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These will instead be grouped into a 'Single Card Stories' lane at the top of the board.
+
+When starting work a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task. 
+
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
+
+In order to minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
+
+The sprint board is also used to track distractions which occur during a sprint. These are recorded on post-it notes with a description and a rough estimate of time spent. A distraction is anything that prevented a team member from spending time on planned sprint tasks e.g time spent in meetings, or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+
 #### Daily Scrums
 
  On each day of a sprint at 1:30pm the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
