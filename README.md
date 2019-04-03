@@ -257,7 +257,6 @@ Each project may also have a number of variables defined. Upon deployment, Octop
 
 For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows for example Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
 
-
 #### Code Style
   - [JavaScript](docs/code-style/javascript.md)
   - [C#](docs/code-style/csharp.md)
