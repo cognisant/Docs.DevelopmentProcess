@@ -200,7 +200,7 @@ End users do not have access to modify cards on this board directly but can add 
 
 **Title**
 
-They should contain a brief summary of the story (often this can be copied and pasted from the "I want..." portion of the story. Card titles may change as the problem and solutions are better understood.
+They should contain a brief summary of the story; often this can be copied and pasted from the "I want..." portion of the story. Card titles may change as the problem and solutions are better understood.
 
 **Estimates**
 
