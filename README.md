@@ -239,8 +239,25 @@ There is an area on the sprint board for highlighting the current retrospective 
 ### Development
 
 - [Source Control](docs/source-control.md) (needs updating)
-- Teamcity
-- Octopus
-- Code Style
+
+#### Teamcity
+[TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
+
+Each Cognisant project will have a corresponding configuration in Teamcity created at the outset. When code is committed to the Git repository, it will be automatically built and tested by the Teamcity server. The resulting packages are published to a nuget feed, to be consumed by [Octopus Deploy](#octopus-deploy). 
+
+The build status is automatically pushed back as a status check on the Github pull request. This prevents any change from being merged if it does not build and pass all automated tests.
+
+#### Octopus Deploy
+
+[Octopus deploy](https://octopus.com) is a deployment automation server designed to make it easy to orchestrate releases and deploy applications, whether on-premises or in the cloud.
+
+Each Cognisant project will have a corresponding project in octopus deploy. The project will contain a definition of the deployment workflow, usually deploying one or more packages from the Teamcity nuget feed.
+
+Each project may also have a number of variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc).
+
+For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows for example Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
+
+
+#### Code Style
   - [JavaScript](docs/code-style/javascript.md)
   - [C#](docs/code-style/csharp.md)
