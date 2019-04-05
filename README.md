@@ -137,7 +137,7 @@ During the sprint, the team's progress on the tasks generated during the sprint 
 The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
 Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These will instead be grouped into a 'Single Card Stories' lane at the top of the board.
 
-When starting work a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task. 
+When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task. 
 
 Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
 
