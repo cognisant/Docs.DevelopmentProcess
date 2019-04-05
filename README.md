@@ -63,13 +63,12 @@ Some cards represent software defects rather than user stories. The description 
 
 #### Epics
 
-Several separate stories may relate to a single business objective.
-
+Several separate stories may relate to a single business objective.  
 Relatively large business goals which include the completion of several stories, are referred to as 'epics'.
 
 All of the stories which belong to an epic will be labelled (on their Trello card) with the name of the relevant epic.
 
-On the **Software Development** Trello board, there is a 'Current Epics' column containing cards describing the epics which some of the stories on the board currently belong to.
+The **Current Epics** column (of the **Software Development** Trello board) contains cards describing epics which some of the stories on the board currently belong to.
 
 #### UI Mockups
 
