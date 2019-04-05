@@ -130,7 +130,7 @@ During this meeting the team engages in the following activities to prepare for 
 
 #### Tracking Progress
 
-During the sprint, the teams progress on the tasks generated during the sprint kick-off are tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+During the sprint, the team's progress on the tasks generated during the sprint kick-off are tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
