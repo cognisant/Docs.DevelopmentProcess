@@ -226,13 +226,13 @@ During [estimation](#estimating-effort) sessions, planning poker cards containin
 
 [Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person to person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
 
-The `#general` channel exists by default, and can be used for general team discussion and announcements.
+The `#general` channel exists by default, and can be used for general team discussions and announcements.
 
-Channels regarding a particular project should be prefixed with `proj`, for example `#proj-order-manager`.
+Channels regarding a particular project are prefixed with `proj`, for example `#proj-order-manager`.
 
-Temporary channels for ad-hoc discussions should be prefixed with `temp`, for example `#temp-balances`.
+Temporary channels for ad-hoc discussions are prefixed with `temp`, for example `#temp-balances`.
 
-Some channels are used with third party integrations to provide notifications. These should be prefixed with `bot`, for example `#bot-monitoring`.
+Some channels are used with third party integrations to provide notifications. These are prefixed with `bot`, for example `#bot-monitoring`.
 
 ### Sprint Board
 
