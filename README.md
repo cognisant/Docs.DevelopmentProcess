@@ -139,11 +139,11 @@ Occasionally, stories may be deemed too small to be broken down into fine-graine
 
 When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task. 
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
 
 In order to minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
-The sprint board is also used to track distractions which occur during a sprint. These are recorded on post-it notes with a description and a rough estimate of time spent. A distraction is anything that prevented a team member from spending time on planned sprint tasks e.g time spent in meetings, or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+The sprint board is also used to track distractions which occur during a sprint. These are recorded on post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
 #### Daily Scrums
 
