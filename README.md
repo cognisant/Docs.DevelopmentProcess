@@ -204,7 +204,7 @@ Each sprint, two team members are selected to spend a portion of their time lear
 
 #### Tech Debt
 
-Each sprint, two team members are selected to spend a portion of their time working on tech debt. This allows us time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or upating dependencies to ensure we have the latest security patches.
+Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or upating dependencies to ensure we have the latest security patches.
 
 ## Tools
 
