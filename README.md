@@ -19,11 +19,11 @@ The team may also manually add cards to Trello at the request of management. Whe
 
 ### Triage
 
-From time to time, the team will go through all the cards in the **Inbox** list on the **Software Development** Trello board, and determine whether or not the idea adds value.
+From time to time, the team will go through all the cards in the **Inbox** list on the **Software Development** Trello board, to determine whether or not each idea adds value.
 
-If it does, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
+If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
-The team may need to consult the user to determine whether the idea adds value. Any discussion or clarifications should added to the Trello card for future reference.
+The team may need to consult the user to determine whether the idea adds value. Any discussion or clarifications should be added to the Trello card for future reference.
 
 ### Prioritisation
 
