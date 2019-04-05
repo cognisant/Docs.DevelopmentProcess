@@ -147,7 +147,7 @@ The sprint board is also used to track distractions which occur during a sprint.
 
 #### Daily Scrums
 
- On each day of a sprint at 1:30pm the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+ On each day of a sprint (excluding the first and last), at 1:30pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
