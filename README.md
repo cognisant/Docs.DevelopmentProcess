@@ -77,12 +77,10 @@ For stories whose implementation will require substantial user interface changes
 
 #### Business Review
 
-Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story.  
-This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.  
+Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.  
 Simplisitc stories, such as bug descriptions, do not require a business review.
 
-Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution originally suggested by the member of the business.  
-In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
+Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution originally suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
 
 If the business member is not happy with the story, the team will rewrite the story to address their concerns.
 
