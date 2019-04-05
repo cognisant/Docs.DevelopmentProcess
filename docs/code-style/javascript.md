@@ -18,7 +18,7 @@ Code editors should be configured to respect the formatting rules defined by the
 
 A code editor set up to perform live validation of [ESLint](https://eslint.org/) rules will result in less incorrect code being checked into git. You can find a list of plugins for common editors [here](https://eslint.org/docs/user-guide/integrations).
 
-Files should not be committed to git which have ESLint errors or warnings.
+Files which have ESLint errors or warnings should not be committed to git.
 
 ### Prettier
 
