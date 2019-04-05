@@ -93,9 +93,9 @@ A Trello card can be considered ready to be worked on if it meets the criteria d
 - *I*ndependent. The story must be actionable and "completable" on its own. It shouldn't be inherently dependent on another story.
 - *N*egotiable. Until it's actually being done, it needs to be able to be rewritten. Allowance for change is built in.
 - *V*aluable. It actually delivers value to a customer or stakeholder.
-- *E*stimable. You need to be able to size it. (Using the process defined in the [Estimating Effort](#estimating-effort) section)
+- *E*stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
 - *S*mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
-- *T*estable. The story must have a test it is supposed to pass in order to be considered complete. (These are defined in our Trello cards under the heading "Acceptance criteria")
+- *T*estable. The story must have a test it is supposed to pass in order to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
 
 Once the card is ready it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
