@@ -73,7 +73,7 @@ On the **Software Development** Trello board, there is a 'Current Epics' column 
 
 #### UI Mockups
 
-For stories whose implementation will require substantial user interface changes, UI mockups of one or more potential solutions will be added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups are be treated as a guide, not necessarily a contract for exactly how the final UI will work.
+For stories whose implementation will require substantial user interface changes, UI mockups of one or more potential solutions will be added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI will work.
 
 #### Business Review
 
