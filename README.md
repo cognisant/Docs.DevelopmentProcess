@@ -54,12 +54,12 @@ The card will also define the minimum criteria which must be met for a solution 
 The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
 
 #### Bug Cards
-Some cards represent software defects rather than user stories. The description of these cards follows a slightly different format in order to describe the steps necessary to reproduce the bug. The sections are as follows:
+Some cards represent software defects rather than user stories. Descriptions of these cards follow a slightly different format in order to describe the steps necessary to reproduce the bug. The sections are as follows:
 
-- **How to Reproduce** - to describe any steps necessary to get the system into an appropriate state, followed by a description of the action which is not working as expected.
-- **Expected Behaviour** - what the user expects to see when taking the action described above.
+- **How to Reproduce** - any steps necessary to get the system into an appropriate state, followed by a description of the action which is not working as expected.
+- **Expected Behaviour** - what the user should see when taking the action described above.
 - **Actual Behaviour** - the actual (incorrect) behaviour exhibited by the system.
-- **Impact** - a description of the business impact of the bug.
+- **Impact** - the business impact of the bug.
 
 #### Epics
 
