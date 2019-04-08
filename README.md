@@ -53,7 +53,7 @@ Good stories are solution-agnostic.
 
 ##### Acceptance Criteria
 
-The card also defines the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
+The card also defines the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who ultimately give the go-ahead for deployment of the solution (see also: [Business Review](#business-review)).
 
 ##### Original Request
 
