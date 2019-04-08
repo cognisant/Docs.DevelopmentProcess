@@ -45,9 +45,11 @@ The story card is made up of three sections.
 
 ##### User Story
 
-The user story is a concise description of the change, told from the perspective of the person who requested it. They usually take the following form:
+The user story is a concise description of the user’s problem, told from the perspective of the person who requested it. They usually take the following form:
 
 As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
+
+Good stories are solution-agnostic.
 
 ##### Acceptance Criteria
 
