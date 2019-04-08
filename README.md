@@ -109,7 +109,7 @@ The process for estimating a story is as follows.
 2. The team discusses the required changes to systems, and the extent of testing required.
 3. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
 4. The cards are revealed
-   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13), then the effort for the story is the average of the cards .
+   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13), then the effort for the story is the average of the cards.
    2. If there is a wider spread (e.g. 3, 5 and 8), the team members who voted the highest and lowest explain why they voted as they did, then another vote takes place.
 
 ### Sprints
@@ -118,7 +118,7 @@ A sprint is a time-box during which a ["Done"](#definition-of-done), useable, an
 
 #### Sprint Kick-off
 
-On the first Monday of a sprint, at 10am, the sprint begins with a kick-off meeting.
+On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off meeting.
 During this meeting the team engages in the following activities to prepare for the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
@@ -146,7 +146,7 @@ The sprint board is also used to track distractions which occur during a sprint.
 
 #### Daily Scrums
 
- On each day of a sprint (excluding the first and last), at 1:30pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+ On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
@@ -156,7 +156,7 @@ The sprint board is also used to track distractions which occur during a sprint.
 
 #### Definition of Done
 
-It is essential to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time. Currently, it includes the following criteria:
+It is essential to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve. Currently, it includes the following criteria:
 
 - Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
 - All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
@@ -297,7 +297,7 @@ The software development board will contain the following lists. Cards will be m
 - **Ready To Deploy** for cards that have been validated and will be deployed soon.
 - **Deployed** for completed work which has been deployed to production.
 
-In general, the team tries to organize each list so that higher priority cards are nearer the top. This is meant as an indication of priorities rather than a strict contract for which cards will be worked on next.
+In general, the team tries to organise each list so that higher priority cards are nearer the top. This is meant as an indication of priorities rather than a strict contract for which cards will be worked on next.
 
 ## Guidelines
 
