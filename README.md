@@ -301,7 +301,7 @@ The software development board will contain the following lists. Cards will be m
 
 - **Current Epics** a set of cards representing all currently active epics.
 - **Inbox** is a list of new requests fed by the feature request form.
-- **Idea Backlog** cards are moved here once a card from the inbox has been reviewed by the team, it will be moved here.
+- **Idea Backlog** for cards containing ideas worth exploring.
 - **Researching Solution** for cards which are being actively researched and specified in the current sprint.
 - **Product Backlog** for cards which have been fully specified and could potentially be worked on soon.
 - **Current Sprint** for cards that are being worked on in the current sprint.
