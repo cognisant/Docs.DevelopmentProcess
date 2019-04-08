@@ -64,7 +64,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 #### Epics
 
 Several separate stories may relate to a single business objective.  
-Relatively large business goals which include the completion of several stories, are referred to as 'epics'.
+Relatively large business goals which include the completion of several stories are referred to as 'epics'.
 
 All of the stories which belong to an epic will be labelled (on their Trello card) with the name of the relevant epic.
 
@@ -94,7 +94,7 @@ A Trello card can be considered ready to be worked on if it meets the criteria d
 - *S*mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
 - *T*estable. The story must have a test it is supposed to pass in order to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
 
-Once the card is ready it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
+Once the card is ready, it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
 ### Estimating Effort
 
@@ -109,7 +109,7 @@ The process for estimating a story is as follows.
 2. The team discusses the required changes to systems, and the extent of testing required.
 3. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
 4. The cards are revealed
-   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13) then the effort for the story is the average of the cards .
+   1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13), then the effort for the story is the average of the cards .
    2. If there is a wider spread (e.g. 3, 5 and 8), the team members who voted the highest and lowest explain why they voted as they did, then another vote takes place.
 
 ### Sprints
@@ -123,7 +123,7 @@ During this meeting the team engages in the following activities to prepare for 
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
 - A number of additional stories should be selected, which the team will aim to complete during the new sprint.
-  - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary this number can be scaled to account for planned absences or special business circumstances.
+  - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
   - Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
@@ -138,7 +138,7 @@ Occasionally, stories may be deemed too small to be broken down into fine-graine
 
 When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
 
 In order to minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
@@ -156,7 +156,7 @@ The sprint board is also used to track distractions which occur during a sprint.
 
 #### Definition of Done
 
-It is important to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time, currently it includes the following criteria:
+It is important to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time. Currently, it includes the following criteria:
 
 - Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
 - All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
@@ -166,7 +166,7 @@ It is important to have a well defined "definition of done" so that we know when
 - The working change has been demonstrated to the rest of the team.
 - The automated TeamCity build for the project is succeeding.
 - A pull request has been submitted to the appropriate repository and reviewed by at least one other member of the team.
-- Any required configuration or process changes have been made in Octopus Deploy, so that the change could be deployed with no additional work.
+- Any required configuration or process changes have been made in Octopus Deploy so that the change could be deployed with no additional work.
 
 #### Demos
 
@@ -192,7 +192,7 @@ The main objective of these meetings is to identify improvements that could be m
 During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.  
 At the meeting, the team will review all of the discussion points added to the board.  
 If necessary, the team will attempt to think of a systematic method of addressing a point raised.  
-Often discussion points are simply something to keep in mind during future sprints, or a small problem that can be immediately addressed with a simple action.
+Often discussion points are simply something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
 
 Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
 
@@ -200,11 +200,11 @@ An example of a process improvement derived from a retrospective meeting is [the
 
 #### Learning
 
-Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses, but are also free to use other resources.
+Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources.
 
 #### Tech Debt
 
-Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
+Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
 
 ## Tools
 
@@ -220,19 +220,19 @@ If a team member needs to use the credentials of a shared account, they can find
 
 ### Planning Poker Cards
 
-During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers 1-21 are used to allow team members to choose then simultaneously reveal their estimate. 6 player decks can be purchased from [https://agilestationery.co.uk/products/estimation-poker-cards](https://agilestationery.co.uk/products/estimation-poker-cards) with the discount code `THANKYOU` to receive 20% off.
+During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers, 1-21 are used to allow team members to choose then simultaneously reveal their estimate. 6 player decks can be purchased from [https://agilestationery.co.uk/products/estimation-poker-cards](https://agilestationery.co.uk/products/estimation-poker-cards) with the discount code `THANKYOU` to receive 20% off.
 
 ### Slack
 
 [Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person to person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
 
-The `#general` channel exists by default, and can be used for general team discussions and announcements.
+The `#general` channel exists by default and can be used for general team discussions and announcements.
 
-Channels regarding a particular project are prefixed with `proj`, for example `#proj-order-manager`.
+Channels regarding a particular project are prefixed with `proj`, for example, `#proj-order-manager`.
 
-Temporary channels for ad-hoc discussions are prefixed with `temp`, for example `#temp-balances`.
+Temporary channels for ad-hoc discussions are prefixed with `temp`, for example, `#temp-balances`.
 
-Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example `#bot-monitoring`.
+Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example, `#bot-monitoring`.
 
 ### Sprint Board
 
@@ -320,9 +320,9 @@ The build status is automatically pushed back as a status check on the Github pu
 
 Each Cognisant project will have a corresponding project in octopus deploy. The project will contain a definition of the deployment workflow, usually deploying one or more packages from the TeamCity NuGet feed.
 
-Each project may also have a number of variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc).
+Each project may also have a number of variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
 
-For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows for example Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
+For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
 
 #### Code Style
   - [JavaScript](docs/code-style/javascript.md)
