@@ -77,7 +77,7 @@ For stories whose implementation will require substantial user interface changes
 #### Business Review
 
 Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.  
-Simplisitc stories, such as bug descriptions, do not require a business review.
+Simplistic stories, such as bug descriptions, do not require a business review.
 
 Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution originally suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
 
@@ -101,7 +101,7 @@ Once the card is ready it will be tagged using the green 'Ready' tag on Trello. 
 The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.  
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
-After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the fibonacci numbers from 1-21.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the Fibonacci numbers from 1-21.
 
 The process for estimating a story is as follows.
 
@@ -114,7 +114,7 @@ The process for estimating a story is as follows.
 
 ### Sprints
 
-A sprint is a time-box during which a ["Done"](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint. 
+A sprint is a time-box during which a ["Done"](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two-week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint.
 
 #### Sprint Kick-off
 
@@ -124,7 +124,7 @@ During this meeting the team engages in the following activities to prepare for 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
 - A number of additional stories should be selected, which the team will aim to complete during the new sprint.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary this number can be scaled to account for planned absences or special business circumstances.
-- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint. 
+- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
   - Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
 #### Tracking Progress
@@ -136,7 +136,7 @@ During the sprint, the team's progress on the tasks generated during the sprint 
 The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
 Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These will instead be grouped into a 'Single Card Stories' lane at the top of the board.
 
-When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task. 
+When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task.
 
 Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
 
@@ -164,7 +164,7 @@ It is important to have a well defined "definition of done" so that we know when
 - Unit tests have been written where appropriate, and all existing tests are passing.
 - Manual testing has been performed to ensure that the feature works as expected.
 - The working change has been demonstrated to the rest of the team.
-- The automated Teamcity build for the project is succeeding.
+- The automated TeamCity build for the project is succeeding.
 - A pull request has been submitted to the appropriate repository and reviewed by at least one other member of the team.
 - Any required configuration or process changes have been made in Octopus Deploy, so that the change could be deployed with no additional work.
 
@@ -204,7 +204,7 @@ Each sprint, two team members are selected to spend a portion of their time lear
 
 #### Tech Debt
 
-Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or upating dependencies to ensure we have the latest security patches.
+Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business, but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
 
 ## Tools
 
@@ -232,7 +232,7 @@ Channels regarding a particular project are prefixed with `proj`, for example `#
 
 Temporary channels for ad-hoc discussions are prefixed with `temp`, for example `#temp-balances`.
 
-Some channels are used with third party integrations to provide notifications. These are prefixed with `bot`, for example `#bot-monitoring`.
+Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example `#bot-monitoring`.
 
 ### Sprint Board
 
@@ -310,7 +310,7 @@ In general, the team tries to organize each list so that higher priority cards a
 #### Teamcity
 [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
 
-Each Cognisant project will have a corresponding configuration in Teamcity created at the outset. When code is committed to the Git repository, it will be automatically built and tested by the Teamcity server. The resulting packages are published to a nuget feed, to be consumed by [Octopus Deploy](#octopus-deploy). 
+Each Cognisant project will have a corresponding configuration in TeamCity created at the outset. When code is committed to the Git repository, it will be automatically built and tested by the TeamCity server. The resulting packages are published to a NuGet feed, to be consumed by [Octopus Deploy](#octopus-deploy).
 
 The build status is automatically pushed back as a status check on the Github pull request. This prevents any change from being merged if it does not build and pass all automated tests.
 
@@ -318,7 +318,7 @@ The build status is automatically pushed back as a status check on the Github pu
 
 [Octopus deploy](https://octopus.com) is a deployment automation server designed to make it easy to orchestrate releases and deploy applications, whether on-premises or in the cloud.
 
-Each Cognisant project will have a corresponding project in octopus deploy. The project will contain a definition of the deployment workflow, usually deploying one or more packages from the Teamcity nuget feed.
+Each Cognisant project will have a corresponding project in octopus deploy. The project will contain a definition of the deployment workflow, usually deploying one or more packages from the TeamCity NuGet feed.
 
 Each project may also have a number of variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc).
 
