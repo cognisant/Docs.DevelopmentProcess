@@ -19,7 +19,7 @@ The team may also manually add cards to Trello at the request of management. Whe
 
 ### Triage
 
-From time to time, the team will go through all the cards in the **Inbox** list on the **Software Development** Trello board, to determine whether or not each idea adds value.
+From time to time, the team goes through all the cards in the **Inbox** list on the **Software Development** Trello board, to determine whether or not each idea adds value.
 
 If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
@@ -39,9 +39,9 @@ It is more important for the team to specify and estimate stories relating to th
 
 #### Writing Stories
 
-Before a request can be worked on, it will be broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it will take many such increments to reach the final solution to the problem initially presented by the customer. This is fine provided that each story has value on its own.
+Before a request can be worked on, it gets broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it takes many such increments to reach the final solution to the problem initially presented by the customer. This is fine provided that each story has value on its own.
 
-The story card will be made up of three sections.
+The story card is made up of three sections.
 
 ##### User Story
 
@@ -51,11 +51,11 @@ As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
 
 ##### Acceptance Criteria
 
-The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
+The card also defines the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
 
 ##### Original Request
 
-The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
+The original request remains at the bottom of the Trello card in case we need to review it in future. This should not be modified.
 
 #### Bug Cards
 
@@ -69,15 +69,16 @@ Some cards represent software defects rather than user stories. Descriptions of 
 #### Epics
 
 Several separate stories may relate to a single business objective.
+
 Relatively large business goals which include the completion of several stories are referred to as 'epics'.
 
-All of the stories which belong to an epic will be labelled (on their Trello card) with the name of the relevant epic.
+All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
-The **Current Epics** column (of the **Software Development** Trello board) contains cards describing epics which some of the stories on the board currently belong to.
+The **Current Epics** column (of the **Software Development** Trello board) contains cards describing epics to which some of the stories on the board currently belong.
 
 #### UI Mockups
 
-For stories whose implementation will require substantial user interface changes, UI mockups of one or more potential solutions will be added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI will work.
+For stories whose implementation require substantial user interface changes, UI mockups of one or more potential solutions are added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI works.
 
 #### Business Review
 
@@ -85,9 +86,9 @@ Before a story can be worked on, the business member who submitted the original 
 
 Simplistic stories, such as bug descriptions, do not require a business review.
 
-Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution initially suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
+Sometimes the team envisages a solution to the problem that is significantly different from the solution initially suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
 
-If the business member is not happy with the story, the team will rewrite the story to address their concerns.
+If the business member is not happy with the story, the team rewrites the story to address their concerns.
 
 #### Definition of Ready
 
@@ -100,7 +101,7 @@ A Trello card can be considered ready to be worked on if it meets the criteria d
 - **S**mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
 - **T**estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
 
-Once the card is ready, it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
+Once the card is ready, it is tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
 ### Estimating Effort
 
@@ -130,10 +131,10 @@ On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off mee
 During this meeting the team engages in the following activities to prepare for the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
-- Some additional stories should be selected, which the team will aim to complete during the new sprint.
+- Some additional stories should be selected, which the team aims to complete during the new sprint.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
-  - Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
+  - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
 #### Tracking Progress
 
@@ -143,11 +144,11 @@ During the sprint, the team's progress on the tasks generated during the sprint 
 
 The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
 
-Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These will instead be grouped into a 'Single Card Stories' lane at the top of the board.
+Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a 'Single Card Stories' lane at the top of the board.
 
-When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task.
+When starting work, a team member takes a single task Post-it, adds their initials, and places it in the 'doing' column. When the work is complete, the task gets moved to the 'verify' column, and the team member begins the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the 'to do' column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the 'to do' column.
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
@@ -201,13 +202,13 @@ The primary objective of these meetings is to identify improvements that could b
 
 During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
 
-At the meeting, the team will review all of the discussion points added to the board.
+At the meeting, the team reviews all of the discussion points added to the board.
 
-If necessary, the team will attempt to think of a systematic method of addressing a point raised.
+If necessary, the team attempts to think of a systematic method of addressing a point raised.
 
 Often discussion points are merely something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
 
-Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
+Any possible process improvements agreed upon by the team get trialled in a future sprint, then discussed and refined during that sprint's retrospective.
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
@@ -255,7 +256,7 @@ The development team has a large, physical whiteboard in their workspace called 
 
 Kanban columns occupy most of the sprint board. The team uses these to track the progress of work during a sprint. See [Tracking Progress](#Tracking-Progress) for more details.
 
-Each task is represented by a Post-it on the board. These Post-its move through the columns on the board throughout the sprint. At the end of a sprint, most (if not all) of the task Post-its will have migrated from the “To do” column through the “Doing” and “Verify” columns to the “Done” column.
+Each task is represented by a Post-it on the board. These Post-its move through the columns on the board throughout the sprint. By the end of a sprint, most (if not all) of the task Post-its will have migrated from the “To do” column through the “Doing” and “Verify” columns to the “Done” column.
 
 #### Distractions
 
@@ -267,7 +268,7 @@ There is an area on the sprint board for highlighting the current retrospective 
 
 ### Trello
 
-Each customer will have their board on [Trello](https://trello.com) to hold their backlog of change requests.
+Each customer has their board on [Trello](https://trello.com) to hold their backlog of change requests.
 
 End users do not have access to modify cards on this board directly but can add comments and subscribe to the card to receive notifications on its progress.
 
@@ -283,21 +284,21 @@ Effort estimates are stored in a custom field with the crystal ball symbol (🔮
 
 **Tags**
 
-Trello cards will be visibly tagged with one or more of the following:
+Trello cards get visibly tagged with one or more of the following:
 
 - A blue tag indicating the epic to which they belong
 - A red "Bug" tag, indicating that this is a defect, rather than a new request.
 - A green "Ready" tag, indicating that the story is ready to be worked on.
 - A pink "Regulatory Commitment" tag, for stories that have been promised to regulators as corrective/preventative actions.
-- One or more grey tags indicating the system(s) which will be impacted by the change. These are not visible on the face of the card, but allow easy filtering by a system.
+- One or more grey tags indicating the system(s) that are impacted by the change. These are not visible on the face of the card, but allow easy filtering by a system.
 
 **Descriptions**
 
-Card descriptions will be added to by the development team. To begin with, they will include the description provided by the original author. Once agreed, the development team will write a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
+Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
 
 ### Lists
 
-The software development board will contain the following lists. Cards will be moved by the team to reflect their development progress.
+The software development board contains the following lists. Cards are moved by the team to reflect their development progress.
 
 - **Current Epics** a set of cards representing all currently active epics.
 - **Inbox** is a list of new requests fed by the feature request form.
@@ -307,7 +308,7 @@ The software development board will contain the following lists. Cards will be m
 - **Current Sprint** for cards that are being worked on in the current sprint.
 - **Done** For completed work that has not yet begun UAT/Validation.
 - **In Validation / UAT** for cards that are currently actively undergoing validation or user acceptance testing.
-- **Ready To Deploy** for cards that have been validated and will be deployed soon.
+- **Ready To Deploy** for cards that have been validated and can be deployed.
 - **Deployed** for completed work which has been deployed to production.
 
 In general, the team tries to organise each list so that higher priority cards are nearer the top. This is meant as an indication of priorities rather than a strict contract for which cards will be worked on next.
@@ -320,11 +321,11 @@ In general, the team tries to organise each list so that higher priority cards a
 
 - [Source Control](docs/source-control.md) (needs updating)
 
-#### Teamcity
+#### TeamCity
 
 [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
 
-Each Cognisant project will have a corresponding configuration in TeamCity created at the outset. When code is committed to the Git repository, it will be automatically built and tested by the TeamCity server. The resulting packages are published to a NuGet feed, to be consumed by [Octopus Deploy](#octopus-deploy).
+Each Cognisant project has a corresponding configuration in TeamCity created at the outset. When code is committed to the Git repository, it is automatically built and tested by the TeamCity server. The resulting packages are published to a NuGet feed, to be consumed by [Octopus Deploy](#octopus-deploy).
 
 The build status is automatically pushed back as a status check on the Github pull request. This prevents any change from being merged if it does not build and pass all automated tests.
 
