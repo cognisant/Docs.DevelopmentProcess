@@ -29,11 +29,11 @@ The team may need to consult the user to determine whether the idea adds value. 
 
 The business intermittently advises the team on their current short-term and long-term goals.
 
-At the start of a sprint, the team tries to pick stories relating to the business' current priorities to include in the sprint.
+At the start of a sprint, the team tries to pick stories relating to the business’ current priorities to include in the sprint.
 
 Priorities are also essential to keep in mind during **backlog refinement** meetings.
 
-It is more important for the team to specify and estimate stories relating to the business' urgent priorities than reviewing more general feature requests.
+It is more important for the team to specify and estimate stories relating to the business’ urgent priorities than reviewing more general feature requests.
 
 ### Research
 
@@ -70,7 +70,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 Several separate stories may relate to a single business objective.
 
-Relatively large business goals which include the completion of several stories are referred to as 'epics'.
+Relatively large business goals which include the completion of several stories are referred to as ‘epics’.
 
 All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
@@ -94,18 +94,18 @@ If the business member is not happy with the story, the team rewrites the story 
 
 A Trello card can be considered ready to be worked on if it meets the criteria defined by the **Invest** acronym:
 
-- **I**ndependent. The story must be actionable and "completable" on its own. It shouldn't be inherently dependent on another story.
-- **N**egotiable. Until it's being done, it needs to be able to be rewritten. Allowance for change is built in.
+- **I**ndependent. The story must be actionable and “completable” on its own. It shouldn’t be inherently dependent on another story.
+- **N**egotiable. Until it’s being done, it needs to be able to be rewritten. Allowance for change is built in.
 - **V**aluable. It delivers value to a customer or stakeholder.
 - **E**stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
 - **S**mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
-- **T**estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
+- **T**estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading “Acceptance criteria”).
 
-Once the card is ready, it is tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
+Once the card is ready, it is tagged using the green ‘Ready’ tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
 ### Estimating Effort
 
-The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.
+The team uses numeric ‘effort’ points to represent the magnitude/difficulty of stories.
 
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
@@ -122,7 +122,7 @@ The process for estimating a story is as follows.
 
 ### Sprints
 
-A sprint is a time-box during which a ["Done"](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two-week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint.
+A sprint is a time-box during which a [“Done”](#definition-of-done), useable, and potentially releasable product increment is created. At Cognisant we work in two-week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint.
 
 #### Sprint Kick-off
 
@@ -138,17 +138,17 @@ During this meeting the team engages in the following activities to prepare for 
 
 #### Tracking Progress
 
-During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+During the sprint, the team’s progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
-![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
+![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg “The sprint board (captured mid-sprint)”)
 
-The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
+The board is arranged into columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
 
-Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a 'Single Card Stories' lane at the top of the board.
+Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a ‘Single Card Stories’ lane at the top of the board.
 
-When starting work, a team member takes a single task Post-it, adds their initials, and places it in the 'doing' column. When the work is complete, the task gets moved to the 'verify' column, and the team member begins the next task.
+When starting work, a team member takes a single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the 'to do' column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the ‘done’ column. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column.
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
@@ -160,13 +160,13 @@ On each day of a sprint (excluding the first and last), at 1:30 pm, the team gat
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
-- What obstacles are getting in the team's way?
+- What obstacles are getting in the team’s way?
 
 The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
 
 #### Definition of Done
 
-It is essential to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve. Currently, it includes the following criteria:
+It is essential to have a well defined “definition of done” so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve. Currently, it includes the following criteria:
 
 - Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
 - All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
@@ -186,7 +186,7 @@ The demo is an opportunity for the business to provide feedback on the work.
 
 Often, any small problems the business points out can be corrected before the end of the day.
 
-This meeting is also a chance for the team to explain how the completed work applies to the business' short term goals.
+This meeting is also a chance for the team to explain how the completed work applies to the business’ short term goals.
 
 There is usually a discussion about when the work might be deployed to production and become accessible to users.
 
@@ -208,7 +208,7 @@ If necessary, the team attempts to think of a systematic method of addressing a 
 
 Often discussion points are merely something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
 
-Any possible process improvements agreed upon by the team get trialled in a future sprint, then discussed and refined during that sprint's retrospective.
+Any possible process improvements agreed upon by the team get trialled in a future sprint, then discussed and refined during that sprint’s retrospective.
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
@@ -218,7 +218,7 @@ Each sprint, two team members are selected to spend a portion of their time lear
 
 #### Tech Debt
 
-Each sprint, two team members are selected to spend a portion of their time working on 'tech debt'. This is time to make technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
+Each sprint, two team members are selected to spend a portion of their time working on ‘tech debt’. This is time to make technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
 
 ## Tools
 
@@ -276,7 +276,7 @@ End users do not have access to modify cards on this board directly but can add 
 
 **Title**
 
-They should contain a summary of the story; often this can be copied and pasted from the "I want..." portion of the story. Card titles may change as the problem and solutions are better understood.
+They should contain a summary of the story; often this can be copied and pasted from the “I want...” portion of the story. Card titles may change as the problem and solutions are better understood.
 
 **Estimates**
 
@@ -287,9 +287,9 @@ Effort estimates are stored in a custom field with the crystal ball symbol (🔮
 Trello cards get visibly tagged with one or more of the following:
 
 - A blue tag indicating the epic to which they belong
-- A red "Bug" tag, indicating that this is a defect, rather than a new request.
-- A green "Ready" tag, indicating that the story is ready to be worked on.
-- A pink "Regulatory Commitment" tag, for stories that have been promised to regulators as corrective/preventative actions.
+- A red “Bug” tag, indicating that this is a defect, rather than a new request.
+- A green “Ready” tag, indicating that the story is ready to be worked on.
+- A pink “Regulatory Commitment” tag, for stories that have been promised to regulators as corrective/preventative actions.
 - One or more grey tags indicating the system(s) that are impacted by the change. These are not visible on the face of the card, but allow easy filtering by a system.
 
 **Descriptions**
@@ -337,7 +337,7 @@ Each Cognisant project will have a corresponding project in octopus deploy. The 
 
 Each project may also have some variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
 
-For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
+For software which is deployed to multiple customers, Octopus supports the concept of “Tenants.” This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
 
 #### Code Style
 
