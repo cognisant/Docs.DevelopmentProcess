@@ -31,7 +31,8 @@ The business intermittently advises the team on their current short-term and lon
 
 At the start of a sprint, the team tries to pick stories relating to the business' current priorities to include in the sprint.
 
-Priorities are also essential to keep in mind during **backlog refinement** meetings.  
+Priorities are also essential to keep in mind during **backlog refinement** meetings.
+
 It is more important for the team to specify and estimate stories relating to the business' urgent priorities, instead of reviewing more general feature requests.
 
 ### Research
@@ -43,17 +44,21 @@ Before a request can be worked on, it will be broken down into one or more story
 The story card will be made up of three sections.
 
 ##### User Story
+
 The user story is a concise description of the change, told from the perspective of the person who requested it. They usually take the following form:
 
 As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
 
 ##### Acceptance Criteria
+
 The card will also define the minimum criteria which must be met for a solution to be accepted by the customer. These should be defined in conjunction with the customer stakeholders who will ultimately give the go-ahead for deployment of the solution (see also [Business Review](#business-review)).
 
 ##### Original Request
+
 The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
 
 #### Bug Cards
+
 Some cards represent software defects rather than user stories. Descriptions of these cards follow a slightly different format to describe the steps necessary to reproduce the bug. The sections are as follows:
 
 - **How to Reproduce** - any steps necessary to get the system into an appropriate state, followed by a description of the action which is not working as expected.
@@ -63,7 +68,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 #### Epics
 
-Several separate stories may relate to a single business objective.  
+Several separate stories may relate to a single business objective.
 Relatively large business goals which include the completion of several stories are referred to as 'epics'.
 
 All of the stories which belong to an epic will be labelled (on their Trello card) with the name of the relevant epic.
@@ -76,7 +81,8 @@ For stories whose implementation will require substantial user interface changes
 
 #### Business Review
 
-Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.  
+Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.
+
 Simplistic stories, such as bug descriptions, do not require a business review.
 
 Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution initially suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
@@ -85,23 +91,24 @@ If the business member is not happy with the story, the team will rewrite the st
 
 #### Definition of Ready
 
-A Trello card can be considered ready to be worked on if it meets the criteria defined by the INVEST acronym:
+A Trello card can be considered ready to be worked on if it meets the criteria defined by the **Invest** acronym:
 
-- *I*ndependent. The story must be actionable and "completable" on its own. It shouldn't be inherently dependent on another story.
-- *N*egotiable. Until it's being done, it needs to be able to be rewritten. Allowance for change is built in.
-- *V*aluable. It delivers value to a customer or stakeholder.
-- *E*stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
-- *S*mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
-- *T*estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
+- **I**ndependent. The story must be actionable and "completable" on its own. It shouldn't be inherently dependent on another story.
+- **N**egotiable. Until it's being done, it needs to be able to be rewritten. Allowance for change is built in.
+- **V**aluable. It delivers value to a customer or stakeholder.
+- **E**stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
+- **S**mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
+- **T**estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
 
 Once the card is ready, it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
 ### Estimating Effort
 
-The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.  
+The team uses numeric 'effort' points to represent the magnitude/difficulty of stories.
+
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
-After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the Fibonacci numbers from 1-21.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution to meet the acceptance criteria. Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
 
 The process for estimating a story is as follows.
 
@@ -119,6 +126,7 @@ A sprint is a time-box during which a ["Done"](#definition-of-done), useable, an
 #### Sprint Kick-off
 
 On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off meeting.
+
 During this meeting the team engages in the following activities to prepare for the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
@@ -134,6 +142,7 @@ During the sprint, the team's progress on the tasks generated during the sprint 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
 The board is arranged into columns named 'to do', 'doing', 'verify', and 'done'. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
+
 Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These will instead be grouped into a 'Single Card Stories' lane at the top of the board.
 
 When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task.
@@ -142,17 +151,17 @@ Tasks remain in the verify column until the code has been reviewed by another te
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
-The sprint board is also used to track distractions which occur during a sprint. These are recorded on post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+The sprint board is also used to track distractions which occur during a sprint. These are recorded on Post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
 #### Daily Scrums
 
- On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
 - What obstacles are getting in the team's way?
 
- The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
+The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
 
 #### Definition of Done
 
@@ -172,7 +181,8 @@ It is essential to have a well defined "definition of done" so that we know when
 
 On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
 
-The demo is an opportunity for the business to provide feedback on the work.  
+The demo is an opportunity for the business to provide feedback on the work.
+
 Often, any small problems the business points out can be corrected before the end of the day.
 
 This meeting is also a chance for the team to explain how the completed work applies to the business' short term goals.
@@ -189,9 +199,12 @@ During the retrospective, the team discusses how the sprint went, reflecting on 
 
 The primary objective of these meetings is to identify improvements that could be made to the development process.
 
-During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.  
-At the meeting, the team will review all of the discussion points added to the board.  
-If necessary, the team will attempt to think of a systematic method of addressing a point raised.  
+During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
+
+At the meeting, the team will review all of the discussion points added to the board.
+
+If necessary, the team will attempt to think of a systematic method of addressing a point raised.
+
 Often discussion points are merely something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
 
 Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
@@ -308,6 +321,7 @@ In general, the team tries to organise each list so that higher priority cards a
 - [Source Control](docs/source-control.md) (needs updating)
 
 #### Teamcity
+
 [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
 
 Each Cognisant project will have a corresponding configuration in TeamCity created at the outset. When code is committed to the Git repository, it will be automatically built and tested by the TeamCity server. The resulting packages are published to a NuGet feed, to be consumed by [Octopus Deploy](#octopus-deploy).
@@ -325,5 +339,6 @@ Each project may also have some variables defined. Upon deployment, Octopus is c
 For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
 
 #### Code Style
-  - [JavaScript](docs/code-style/javascript.md)
-  - [C#](docs/code-style/csharp.md)
+
+- [JavaScript](docs/code-style/javascript.md)
+- [C#](docs/code-style/csharp.md)
