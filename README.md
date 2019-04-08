@@ -31,14 +31,14 @@ The business intermittently advises the team on their current short-term and lon
 
 At the start of a sprint, the team tries to pick stories relating to the business' current priorities to include in the sprint.
 
-Priorities are also important to keep in mind during **backlog refinement** meetings.  
+Priorities are also essential to keep in mind during **backlog refinement** meetings.  
 It is more important for the team to specify and estimate stories relating to the business' urgent priorities, instead of reviewing more general feature requests.
 
 ### Research
 
 #### Writing Stories
 
-Before a request can be worked on, it will be broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it will take many such increments to reach the final solution to the problem originally presented by the customer. This is fine provided that each individual story has value on its own.
+Before a request can be worked on, it will be broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it will take many such increments to reach the final solution to the problem initially presented by the customer. This is fine provided that each story has value on its own.
 
 The story card will be made up of three sections.
 
@@ -54,7 +54,7 @@ The card will also define the minimum criteria which must be met for a solution 
 The original request will remain at the bottom of the Trello card in case we need to review it in future. This should not be modified.
 
 #### Bug Cards
-Some cards represent software defects rather than user stories. Descriptions of these cards follow a slightly different format in order to describe the steps necessary to reproduce the bug. The sections are as follows:
+Some cards represent software defects rather than user stories. Descriptions of these cards follow a slightly different format to describe the steps necessary to reproduce the bug. The sections are as follows:
 
 - **How to Reproduce** - any steps necessary to get the system into an appropriate state, followed by a description of the action which is not working as expected.
 - **Expected Behaviour** - what the user should see when taking the action described above.
@@ -79,7 +79,7 @@ For stories whose implementation will require substantial user interface changes
 Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.  
 Simplistic stories, such as bug descriptions, do not require a business review.
 
-Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution originally suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
+Sometimes the team will have envisaged a solution to the problem, which is significantly different from the solution initially suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
 
 If the business member is not happy with the story, the team will rewrite the story to address their concerns.
 
@@ -88,11 +88,11 @@ If the business member is not happy with the story, the team will rewrite the st
 A Trello card can be considered ready to be worked on if it meets the criteria defined by the INVEST acronym:
 
 - *I*ndependent. The story must be actionable and "completable" on its own. It shouldn't be inherently dependent on another story.
-- *N*egotiable. Until it's actually being done, it needs to be able to be rewritten. Allowance for change is built in.
-- *V*aluable. It actually delivers value to a customer or stakeholder.
+- *N*egotiable. Until it's being done, it needs to be able to be rewritten. Allowance for change is built in.
+- *V*aluable. It delivers value to a customer or stakeholder.
 - *E*stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
 - *S*mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
-- *T*estable. The story must have a test it is supposed to pass in order to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
+- *T*estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading "Acceptance criteria").
 
 Once the card is ready, it will be tagged using the green 'Ready' tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
 
@@ -122,7 +122,7 @@ On the first Monday of a sprint, at 10am, the sprint begins with a kick-off meet
 During this meeting the team engages in the following activities to prepare for the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
-- A number of additional stories should be selected, which the team will aim to complete during the new sprint.
+- Some additional stories should be selected, which the team will aim to complete during the new sprint.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
   - Occasionally during this breakdown, we will discover some complexity in implementing the feature which had not previously been considered. If this happens, we may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
@@ -138,15 +138,15 @@ Occasionally, stories may be deemed too small to be broken down into fine-graine
 
 When starting work, a team member will take a single task Post-it, add their initials, and place it in the 'doing' column. When the work is complete, the task will be moved to the 'verify' column, and begin the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto additional Post-its and placed in the 'to do' column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the 'done' column. Sometimes it is possible to review a single task, but in practice, an entire story will often be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the 'to do' column.
 
-In order to minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
+To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
 The sprint board is also used to track distractions which occur during a sprint. These are recorded on post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
 #### Daily Scrums
 
- On each day of a sprint (excluding the first and last), at 1:30pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who is able to stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+ On each day of a sprint (excluding the first and last), at 1:30pm, the team gathers around the sprint board for a meeting called the “daily scrum”. Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
@@ -156,7 +156,7 @@ The sprint board is also used to track distractions which occur during a sprint.
 
 #### Definition of Done
 
-It is important to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time. Currently, it includes the following criteria:
+It is essential to have a well defined "definition of done" so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve over time. Currently, it includes the following criteria:
 
 - Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
 - All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
@@ -187,12 +187,12 @@ Members of the team take it in turns to bring snacks for the whole team to this 
 
 During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
-The main objective of these meetings is to identify improvements that could be made to the development process.
+The primary objective of these meetings is to identify improvements that could be made to the development process.
 
 During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.  
 At the meeting, the team will review all of the discussion points added to the board.  
 If necessary, the team will attempt to think of a systematic method of addressing a point raised.  
-Often discussion points are simply something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
+Often discussion points are merely something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
 
 Any possible process improvements agreed upon by the team will be trialled in a future sprint, then discussed and refined during that sprint's retrospective.
 
@@ -212,7 +212,7 @@ Each sprint, two team members are selected to spend a portion of their time work
 
 1Password is the password manager the team uses to securely store and share work-related passwords.
 
-Team members use private vaults to manage passwords for their own work-related accounts.
+Team members use private vaults to manage passwords for their work-related accounts.
 
 There is also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
@@ -254,7 +254,7 @@ There is an area on the sprint board for highlighting the current retrospective 
 
 ### Trello
 
-Each customer will have their own board on [Trello](https://trello.com) to hold their backlog of change requests.
+Each customer will have their board on [Trello](https://trello.com) to hold their backlog of change requests.
 
 End users do not have access to modify cards on this board directly but can add comments and subscribe to the card to receive notifications on its progress.
 
@@ -262,7 +262,7 @@ End users do not have access to modify cards on this board directly but can add 
 
 **Title**
 
-They should contain a brief summary of the story; often this can be copied and pasted from the "I want..." portion of the story. Card titles may change as the problem and solutions are better understood.
+They should contain a summary of the story; often this can be copied and pasted from the "I want..." portion of the story. Card titles may change as the problem and solutions are better understood.
 
 **Estimates**
 
@@ -320,7 +320,7 @@ The build status is automatically pushed back as a status check on the Github pu
 
 Each Cognisant project will have a corresponding project in octopus deploy. The project will contain a definition of the deployment workflow, usually deploying one or more packages from the TeamCity NuGet feed.
 
-Each project may also have a number of variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
+Each project may also have some variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
 
 For software which is deployed to multiple customers, Octopus supports the concept of "Tenants". This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
 
