@@ -33,7 +33,7 @@ At the start of a sprint, the team tries to pick stories relating to the busines
 
 Priorities are also essential to keep in mind during **backlog refinement** meetings.
 
-It is more important for the team to specify and estimate stories relating to the business' urgent priorities, instead of reviewing more general feature requests.
+It is more important for the team to specify and estimate stories relating to the business' urgent priorities than reviewing more general feature requests.
 
 ### Research
 
@@ -137,7 +137,7 @@ During this meeting the team engages in the following activities to prepare for 
 
 #### Tracking Progress
 
-During the sprint, the team's progress on the tasks generated during the sprint kick-off are tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
@@ -223,7 +223,7 @@ Each sprint, two team members are selected to spend a portion of their time work
 
 ### 1Password
 
-1Password is the password manager the team uses to securely store and share work-related passwords.
+1Password is the password manager the team uses to store and share work-related passwords securely.
 
 Team members use private vaults to manage passwords for their work-related accounts.
 
@@ -237,7 +237,7 @@ During [estimation](#estimating-effort) sessions, planning poker cards containin
 
 ### Slack
 
-[Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person to person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
+[Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person-to-person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
 
 The `#general` channel exists by default and can be used for general team discussions and announcements.
 
@@ -289,7 +289,7 @@ Trello cards will be visibly tagged with one or more of the following:
 - A red "Bug" tag, indicating that this is a defect, rather than a new request.
 - A green "Ready" tag, indicating that the story is ready to be worked on.
 - A pink "Regulatory Commitment" tag, for stories that have been promised to regulators as corrective/preventative actions.
-- One or more grey tags indicating the system(s) which will be impacted by the change. These are not visible on the face of the card, but allow easy filtering by system.
+- One or more grey tags indicating the system(s) which will be impacted by the change. These are not visible on the face of the card, but allow easy filtering by a system.
 
 **Descriptions**
 
@@ -301,7 +301,7 @@ The software development board will contain the following lists. Cards will be m
 
 - **Current Epics** a set of cards representing all currently active epics.
 - **Inbox** is a list of new requests fed by the feature request form.
-- **Idea Backlog** once a card from the inbox has been reviewed by the team, it will be moved here.
+- **Idea Backlog** cards are moved here once a card from the inbox has been reviewed by the team, it will be moved here.
 - **Researching Solution** for cards which are being actively researched and specified in the current sprint.
 - **Product Backlog** for cards which have been fully specified and could potentially be worked on soon.
 - **Current Sprint** for cards that are being worked on in the current sprint.
