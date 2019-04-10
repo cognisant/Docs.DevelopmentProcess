@@ -6,7 +6,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 
 ### Discovery
 
-Users can add cards to the **Software Development** Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
+To request new software functionality or report a problem with a software system, users can add cards to the **Software Development** Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
 
 - A title
 - A description
