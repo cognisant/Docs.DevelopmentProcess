@@ -110,9 +110,9 @@ Make sure ESLint is run as part of a CI build. An easy way to do this is to add 
 }
 ```
 
-#### Webpack
+#### webpack
 
-If [Webpack](https://webpack.js.org) is being used to build the web project, the plugin `eslint-loader` can be utilized to run ESLint against the files without having to also use an npm script. It can be run using the following rule.
+If [webpack](https://webpack.js.org) is being used to build the web project, the plugin `eslint-loader` can be utilized to run ESLint against the files without having to also use an npm script. It should be installed using `npm install -D eslint-loader`, then the following rule should be added to the webpack config to use the plugin.
 
 ```
 rules: [
