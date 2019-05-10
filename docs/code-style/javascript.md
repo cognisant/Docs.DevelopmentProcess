@@ -86,6 +86,14 @@ Details on how to set up a project which will use both the ESLint AirBnB Rules, 
 
 A `.prettierrc` file should not be needed as prettier will use the rules specified in the `.editorconfig` file.
 
+### .gitattributes file
+
+To ensure that Windows build agents are able to properly checkout the repository, and maintain the required line endings as specified in the `.editorconfig` file, it is necessary to configure git to not convert `LF` to `CRLF` on checkout. It is possible to do this globally on a build server, but this can be avoided by adding a `.gitattributes` file in the same folder as the `.editorconfig` file with the following content.
+
+```
+* text=auto eol=lf
+```
+
 ### Running ESLint and Prettier
 
 There are many ways of running ESLint and Prettier against the code outside of an editor.
