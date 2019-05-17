@@ -180,6 +180,12 @@ It is essential to have a well defined ‘definition of done’ so that we know 
 - A pull request has been submitted to the appropriate repository and reviewed by at least one other member of the team.
 - Any required configuration or process changes have been made in Octopus Deploy so that the change could be deployed with no additional work.
 
+#### Backlog Refinement
+
+To ensure that there are always enough sufficiently specified **user stories** to work on in future sprints, the team must allocate some time during each sprint to maintaining the backlog of work.
+
+Every Tuesday afternoon, the team has a meeting to discuss, review, write and estimate **user stories**. These meetings are called backlog refinement meetings.
+
 #### Demos
 
 On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
