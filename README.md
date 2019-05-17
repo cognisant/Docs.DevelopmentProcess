@@ -146,7 +146,7 @@ During a sprint, the team’s progress on the tasks generated during the sprint 
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
-Kanban columns (columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’) occupy most of the sprint board. The team uses these to track the progress of work during a sprint.
+Columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’ occupy most of the sprint board. The team uses these to track the progress of work during a sprint.
 
 Tasks belonging to stories are represented by Post-its on the board. Each story's task Post-its are grouped into horizontal lanes signified by a title card on the far left.
 The Post-its are moved through the columns on the board as they are worked on during the sprint. By the end of a sprint, most (if not all) of the task Post-its will have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
