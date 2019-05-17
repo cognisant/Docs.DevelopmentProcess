@@ -157,7 +157,7 @@ Tasks remain in the verify column until the code has been reviewed by another te
 
 Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a ‘Single Card Stories’ lane at the top of the board.
 
-To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories.
+To minimise the quantity of partially complete stories at the end of a sprint, a [limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/master/docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories.
 
 The sprint board is also used to track distractions which occur during a sprint.  A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These are recorded on Post-it notes with a description and a rough estimate of time spent on them. The development team reviews distractions during the [retrospective](#Retrospective) to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
