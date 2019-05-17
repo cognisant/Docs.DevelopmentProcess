@@ -236,7 +236,7 @@ If a team member needs to use the credentials of a shared account, they can find
 
 ### Google Sheets
 
-The team maintains a 'Sprint Velocity' spreadsheet. This is used to record various metrics such as 'points achieved', 'total distractions (hours)' etc. This data is used to generate graphs about the team's performance over time.
+The team maintains a 'Sprint Velocity' spreadsheet. This is used to record various metrics such as 'points achieved', 'total distractions (hours)' etc. This data is used to track the team's performance (or 'velocity') over time.
 The 'notes' section of this spreadsheet is used to record team members' planned leave from work.
 
 The team also has a 'Time Breakdowns' spreadsheet. This is used to record how much time each member of the team spent working on projects for different customers. The amount of time each team member was absent from work is also recorded here. This data is used to proportionately bill customers for the team's time.
