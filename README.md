@@ -260,7 +260,7 @@ The development team has a large, physical whiteboard in their workspace called 
 
 It has two main sections:
 
-* Sprint Progress Columns (the Kanban columns which occupy most of the sprint board)
+* Sprint Progress Columns (which occupy most of the sprint board)
 * Distractions (used to track the amount of time the team spends on work unrelated to the sprint)
 
 ### Trello
