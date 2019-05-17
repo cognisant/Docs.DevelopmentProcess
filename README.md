@@ -219,13 +219,6 @@ Any possible process improvements agreed upon by the team get trialled in a futu
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
-##### Retrospective Goals 
-
-At the start of every sprint, the team agrees on a few tasks relating to retrospective discussion points to complete during the sprint.
-
-These tasks could be researching a possible process improvement, or documenting a newly adopted process improvement.
-The tasks are represented on the **sprint board** with a Post-it per task. There is a lane (row) on the **sprint board** used to track the completion of the retrospective-related tasks.
-
 #### Learning
 
 Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources.
