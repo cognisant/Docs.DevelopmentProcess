@@ -140,6 +140,8 @@ During this meeting the team engages in the following activities to prepare for 
 
 #### Tracking Progress
 
+##### The Sprint Board
+
 During the sprint, the team’s progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
@@ -155,6 +157,11 @@ Tasks remain in the verify column until the code has been reviewed by another te
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
 The sprint board is also used to track distractions which occur during a sprint. These are recorded on Post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+
+##### Tracking the productivity of different sprints
+
+The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time.
+The 'notes' section of this spreadsheet is used to record team members' planned leave from work.
 
 #### Daily Scrums
 
@@ -222,6 +229,10 @@ Each sprint, two team members are selected to spend a portion of their time lear
 
 Each sprint, two team members are selected to spend a portion of their time working on ‘tech debt’. This is time to make technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
 
+#### Time Tracking
+
+At the end of every sprint, each member of the team records how much time they spent working on projects for different customers in a 'Time Breakdowns' Google sheet. The amount of time each team member was absent from work is also recorded on this spreadsheet. This data is used to proportionately bill customers for the team's time.
+
 ## Tools
 
 ### 1Password
@@ -233,13 +244,6 @@ Team members use private vaults to manage passwords for their work-related accou
 There is also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
 If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
-
-### Google Sheets
-
-The team maintains a 'Sprint Velocity' spreadsheet. This is used to record various metrics such as 'points achieved', 'total distractions (hours)' etc. This data is used to track the team's performance (or 'velocity') over time.
-The 'notes' section of this spreadsheet is used to record team members' planned leave from work.
-
-The team also has a 'Time Breakdowns' spreadsheet. This is used to record how much time each member of the team spent working on projects for different customers. The amount of time each team member was absent from work is also recorded here. This data is used to proportionately bill customers for the team's time.
 
 ### Planning Poker Cards
 
