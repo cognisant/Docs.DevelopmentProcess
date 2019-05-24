@@ -154,7 +154,13 @@ Tasks remain in the verify column until the code has been reviewed by another te
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
-The sprint board is also used to track distractions which occur during a sprint. A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board. At the end of a sprint, these Post-its can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+In addition to user stories, the sprint board is also used to track **retrospective** goals, **tech debt**, support tickets and distractions.
+
+Each week, a different member of the team is responsible for tracking and responding to support tickets. The member of the team will write up new tickets on Post-its, then place them in the lane for support tickets. Like other tasks, they will be moved across the board as they are completed.
+
+A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
+These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
+At the end of a sprint, these Post-its can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
 #### Daily Scrums
 
