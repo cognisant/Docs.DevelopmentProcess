@@ -150,7 +150,7 @@ Occasionally, stories may be deemed too small to be broken down into fine-graine
 
 When starting work, a team member takes a single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the ‘done’ column. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column.
+Tasks remain in the verify column until the code has been reviewed by another team member. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
 
