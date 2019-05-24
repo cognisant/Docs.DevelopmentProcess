@@ -116,11 +116,12 @@ After a story has been specified, the team estimates how much effort they believ
 The process for estimating a story is as follows.
 
 1. One of the members of the team presents the card to the team, describing the problem and going over the acceptance criteria.
-2. The team discusses the required changes to systems, and the extent of testing required.
-3. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
-4. The cards are revealed
+2. Each member of the team votes on the amount of effort required by selecting a card from their deck of [planning poker cards](planning-poker-cards), with 1 being the lowest and 21 being the largest.
+3. The cards are revealed
    1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13), then the effort for the story is the average of the cards.
-   2. If there is a wider spread (e.g. 3, 5 and 8), the team members who voted the highest and lowest explain why they voted as they did, then another vote takes place.
+   2. If there is a wider spread (e.g. 3, 5 and 8), the team members who voted the highest and lowest explain why they voted as they did. For example, they might discuss the extent of required changes to systems, or the magnitude of testing required. The team then votes again.
+
+If, during estimation, a member of the team votes that a story's effort value is 21, the team will discuss whether the story can be broken down into two or more smaller stories. Stories should be as small as possible, whilst providing value on their own.
 
 ### Sprints
 
