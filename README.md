@@ -111,7 +111,7 @@ The team uses numeric ‘effort’ points to represent the magnitude/difficulty 
 
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
-After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](definition-of-done). Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](#definition-of-done). Each member of the team has a deck of [planning poker cards](planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
 
 The process for estimating a story is as follows.
 
