@@ -143,7 +143,7 @@ There may be stories in a sprint which should be completed before other stories 
 
 At the sprint kick-off, when the team breaks down a 'priority story' into tasks and writes up Post-its for it, the story's story card (on the sprint board in the 'sprint' column) will be marked with an asterisk to highlight that it should be worked on before other stories.
 
-#### Tracking Progress - The Sprint Board
+#### Tracking Progress
 
 ##### The Sprint Board
 
