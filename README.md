@@ -145,6 +145,8 @@ At the sprint kick-off, when the team breaks down a 'priority story' into tasks 
 
 #### Tracking Progress
 
+##### The Sprint Board
+
 During the sprint, the team’s progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
@@ -166,6 +168,11 @@ Each week, a different member of the team is responsible for tracking and respon
 A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
 These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
 At the end of a sprint, these Post-its can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
+
+##### Tracking the productivity of different sprints
+
+The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time.
+The 'notes' section of this spreadsheet is used to record team members' planned leave from work.
 
 #### Daily Scrums
 
@@ -240,6 +247,10 @@ Each sprint, two team members are selected to spend a portion of their time lear
 Each sprint, the team selects some ‘tech debt’ to work on, alongside the rest of the planned work. This work involves technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
 
 Like **user stories**, tech debt jobs are broken down into small tasks and included on the **sprint board** in their own lane. However, tech debt tasks do not count towards the team's 'work in progress limit' (the team can work on three stories and tech debt concurrently).
+
+#### Time Tracking
+
+At the end of every sprint, each member of the team records how much time they spent working on projects for different customers in a 'Time Breakdowns' Google sheet. The amount of time each team member was absent from work is also recorded on this spreadsheet. This data is used to proportionately bill customers for the team's time.
 
 ## Tools
 
