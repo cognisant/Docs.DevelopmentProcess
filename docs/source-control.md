@@ -28,7 +28,7 @@ Occasionally it may be necessary to release an emergency bugfix to something oth
 If this occurs, a support branch named `support/X.X` will be created by branching from the appropriate master version.
 Hot-fixes or features can then be branched from this support branch, every commit on the support branch will be considered a release, similar to the commits on master. These releases will receive a version number between that of the base version and the subsequent version on master.
 
-###Example
+### Example
 
 Imagine `master` contains the following releases:
 
