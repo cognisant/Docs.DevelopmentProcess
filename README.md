@@ -151,15 +151,18 @@ During the sprint, the team’s progress on the tasks generated during the sprin
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
-The board is arranged into columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’. Tasks belonging to each story in the sprint are grouped into horizontal lanes signified by a title card on the far left.
+Columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’ occupy most of the sprint board. The team uses these to track the progress of work during a sprint.
 
-Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a ‘Single Card Stories’ lane at the top of the board.
+Tasks belonging to stories are represented by Post-its on the board. Each story's task Post-its are grouped into horizontal lanes signified by a title card on the far left.
+The Post-its are moved through the columns on the board as they are worked on during the sprint. By the end of a sprint, most (if not all) of the task Post-its will have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
 
-When starting work, a team member takes a single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
+When starting a task, a team member takes the single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
 Tasks remain in the verify column until the code has been reviewed by another team member. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
 
-To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
+Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a ‘Single Card Stories’ lane at the top of the board.
+
+To minimise the quantity of partially complete stories at the end of a sprint, a [limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/master/docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories.
 
 In addition to user stories, the sprint board is also used to track **retrospective** goals, **tech debt**, support tickets and distractions.
 
@@ -238,6 +241,13 @@ Any possible process improvements agreed upon by the team get trialled in a futu
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
 
+##### Retrospective Goals 
+
+At the start of every sprint, the team agrees on a few tasks relating to retrospective discussion points to complete during the sprint.
+
+These tasks could be researching a possible process improvement, or documenting a newly adopted process improvement.
+The tasks are represented on the **sprint board** with a Post-it per task. There is a lane (row) on the **sprint board** used to track the completion of the retrospective-related tasks.
+
 #### Learning
 
 Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources.
@@ -282,21 +292,15 @@ Some channels are used with third-party integrations to provide notifications. T
 
 ### Sprint Board
 
-The development team has a large, physical whiteboard in their workspace called the _sprint board_. The sprint board has three main sections, each used to track a different aspect of the sprint.
+The board is from Clarus (https://www.clarus.com/gb/products/).
 
-#### Sprint Progress Columns
+We use magnetic column headers (these are nearly the same as ours - https://www.patboard.com/shop/scrum-magnets-columncards/).
 
-Kanban columns occupy most of the sprint board. The team uses these to track the progress of work during a sprint. See [Tracking Progress](#Tracking-Progress) for more details.
+Marking tape is used to separate the board's columns (https://agilestationery.co.uk/products/whiteboard-marking-tape-3mm-black).
 
-Each task is represented by a Post-it on the board. These Post-its move through the columns on the board throughout the sprint. By the end of a sprint, most (if not all) of the task Post-its will have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
-
-#### Distractions
-
-There is a reserved area on the sprint board for distractions. Development team members add a Post-it to this area whenever they deviate from sprint-related work. Team members add the duration of the distraction and their initials to the Post-it. The development team reviews distractions during the [retrospective](#Retrospective).
-
-#### Retrospective Goals
-
-There is an area on the sprint board for highlighting the current retrospective goals. These act as constant reminders to the team about what the agreed goals are for improving the process.
+We use 'super sticky' Post-its for tasks, stories and distractions:  
+76 x 76 mm - (https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/ref=sr_1_3?keywords=post-its&qid=1558108247&s=officeproduct&sr=1-3)  
+76 x 127 mm - (https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/ref=pd_sbs_229_2/260-3483606-7838723?_encoding=UTF8&pd_rd_i=B005IXGAWQ&pd_rd_r=5038ae10-78bb-11e9-9c2f-8dcc4d430633&pd_rd_w=H54wT&pd_rd_wg=IA7l7&pf_rd_p=18edf98b-139a-41ee-bb40-d725dd59d1d3&pf_rd_r=P88G6KFM95SS15ZFZ6CD&psc=1&refRID=P88G6KFM95SS15ZFZ6CD)
 
 ### Trello
 
