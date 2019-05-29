@@ -153,7 +153,7 @@ When starting work, a team member takes a single task Post-it, adds their initia
 Tasks remain in the verify column until the code has been reviewed by another team member. Once tasks have been reviewed, they can be moved to the ‘done’ column. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column.
 
 To minimise the quantity of partially complete stories at the end of a sprint, a limit is imposed on the number of work in progress stories. Currently, this limit is set at 3 stories.
-The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working  at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
+The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
 The sprint board is also used to track distractions which occur during a sprint. These are recorded on Post-it notes with a description and a rough estimate of time spent on them. A distraction is anything that prevented a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets. These can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
