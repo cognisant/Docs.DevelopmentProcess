@@ -241,7 +241,7 @@ Any possible process improvements agreed upon by the team get trialled in a futu
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
 
-During the retrospective, the distractions recorded during the sprint are reviewed, with the primary goal of identifying trends in distractions that could be solved with either a software, or process, improvement. This will often lead to cards being added to a Trello board for actioning, depending on whether the issue is related to the development process, technical debt, or an system issue/improvement.
+During the retrospective, the distractions recorded during the sprint are reviewed. The team attempts to identify groups of distractions that could be reduced with software or process improvements (a few distractions may have been caused by the same, or similar, recurring issues). This often leads to cards being added to a Trello board to prompt future action.
 
 ##### Retrospective Goals 
 
