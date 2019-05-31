@@ -137,7 +137,7 @@ During this meeting the team engages in the following activities to prepare for 
 - Some additional stories should be selected, which the team aims to complete during the new sprint.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
-  - A story may need to be branched from one different than master, in cases like this the branch name is written on the storys Post-it.
+  - A story may need to be branched from one different than master, in cases like this the branch name should be written on the story's Post-it.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
   
 There may be stories in a sprint which should be completed before other stories in the sprint. For example, if one story is somewhat dependant on another, the dependency should be worked on first. There may also be stories in a sprint which solve a potentially costly issue, which a customer is currently experiencing. These stories are 'priority stories'.
