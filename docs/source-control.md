@@ -54,6 +54,6 @@ As part of the teamcity build process, GitVersion will be run to tag the build w
 
 ## Best Pratices
 
-- **Avoid merge commits:** When two or more team members are working on a single branch or a feature that would require multiple branches the general idea is to keep the amount of merge commits to a minimum by doing one of the following:
-    - Pulling before committing.
-    - Using `git pull --rebase`
+- **Avoid merge commits:** When two or more team members are working on a single branch simultaneously, they should avoid merge commits by doing one of the following:
+    - Pulling before committing
+   	- Using `git pull --rebase` after committing without pulling
