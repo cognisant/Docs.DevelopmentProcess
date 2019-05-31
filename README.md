@@ -169,7 +169,6 @@ In addition to user stories, the sprint board is also used to track **retrospect
 
 A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
 These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
-At the end of a sprint, these Post-its can be used to identify trends in impediments, and account for lower than expected achievement during a sprint.
 
 Each week, a different member of the team is responsible for tracking and responding to support tickets. The member of the team will write up new tickets on Post-its, then place them in the lane for distractions. Like other tasks, they will be moved across the board as they are completed.
 
@@ -240,7 +239,9 @@ Often discussion points are merely something to keep in mind during future sprin
 
 Any possible process improvements agreed upon by the team get trialled in a future sprint, then discussed and refined during that sprint’s retrospective.
 
-An example of a process improvement derived from a retrospective meeting is [the work in progress limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/dev-with-retrospective/docs/work-in-progress-limit.md).
+An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
+
+During the retrospective, the distractions recorded during the sprint are reviewed, with the primary goal of identifying trends in distractions that could be solved with either a software, or process, improvement. This will often lead to cards being added to a Trello board for actioning, depending on whether the issue is related to the development process, technical debt, or an system issue/improvement.
 
 ##### Retrospective Goals 
 
