@@ -194,7 +194,9 @@ It is essential to have a well defined ‘definition of done’ so that we know 
 
 - Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
 - All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
-- Documentation has been produced. This should include a detailed description of any new functionality as well as a technical description of any configuration or infrastructure changes required to deploy it.
+- Documentation has been produced.
+  - All projects should have a set of release notes in the PR comment that details any new functionality as well as a technical description of any configuration or infrastructure changes required to deploy it.
+  - For projects that have had formal technical documentation written, this should be reviewed and updated where appropriate.
 - Unit tests have been written where appropriate, and all existing tests are passing.
 - Manual testing has been performed to ensure that the feature works as expected.
 - The working change has been demonstrated to the rest of the team.
