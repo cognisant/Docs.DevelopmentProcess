@@ -343,7 +343,7 @@ The software development board contains the following lists. Cards are moved by 
 - **Researching Solution** for cards which are being actively researched and specified in the current sprint.
 - **Product Backlog** for cards which have been fully specified and could potentially be worked on soon.
 - **Current Sprint** for cards that are being worked on in the current sprint.
-    - The title of this list includes the start and end dates of the sprint which should be updated at the start of every sprint. This is to inform customers of when work in the current sprint might be completed.
+    - The title of this list includes the start and end dates of the sprint. These are updated at the start of every sprint to inform customers of when work in the current sprint might be completed.
 - **Done** For completed work that has not yet begun UAT/Validation.
 - **In Validation / UAT** for cards that are currently actively undergoing validation or user acceptance testing.
 - **Ready To Deploy** for cards that have been validated and can be deployed.
