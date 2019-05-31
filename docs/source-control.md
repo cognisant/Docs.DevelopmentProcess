@@ -28,7 +28,7 @@ Occasionally it may be necessary to release an emergency bugfix to something oth
 If this occurs, a support branch named `support/X.X` will be created by branching from the appropriate master version.
 Hot-fixes or features can then be branched from this support branch, every commit on the support branch will be considered a release, similar to the commits on master. These releases will receive a version number between that of the base version and the subsequent version on master.
 
-###Example
+### Example
 
 Imagine `master` contains the following releases:
 
@@ -51,3 +51,9 @@ Commits to this repository will be automatically detected by Teamcity, which wil
 ## Versioning
 
 As part of the teamcity build process, GitVersion will be run to tag the build with an appropriate version number based on the source control branching scheme described above.
+
+## Best Pratices
+
+- **Avoid merge commits:** When two or more team members are working on a single branch simultaneously, they should avoid merge commits by doing one of the following:
+    - Pulling before committing
+   	- Using `git pull --rebase` after committing without pulling
