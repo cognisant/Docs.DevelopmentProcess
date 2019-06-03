@@ -361,7 +361,7 @@ In general, the team tries to organise each list so that higher priority cards a
 
 ### Development
 
-- [Source Control](docs/source-control.md) (needs updating)
+- [Source Control](docs/source-control.md)
 
 #### TeamCity
 
