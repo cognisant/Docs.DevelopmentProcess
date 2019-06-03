@@ -2,11 +2,44 @@
 
 Cognisant develops software products for several companies. It uses the [Scrum](<https://en.wikipedia.org/wiki/Scrum_(software_development)>) framework, with development work arranged in two-week [sprints](<https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint>). Together, Cognisant and its customers define what development work goes into each sprint. This guide describes how that process works.
 
+## Contents
+
+1. [Process](#Process)
+    1. [Discovery](#Discovery)
+    1. [Triage](#Triage)
+    1. [Research](#Research)
+        1. [User Stories](#Writing-Stories)
+        1. [Bug Cards](#Bug-Cards)
+        1. [Epics](#Epics)
+        1. [UI Mockups](#UI-Mockups)
+        1. [Definition of Ready](#Definition-of-Ready)
+    1. [Estimating Effort](#Estimating-Effort)
+    1. [Sprints](#Sprints)
+        1. [Sprint Kick-off](#Sprint-Kick-off)
+        1. [Tracking Progress](#Tracking-Progress)
+        1. [Daily Scrums](#Daily-Scrums)
+        1. [Definition of Done](#Definition-of-Done)
+        1. [Backlog Refinement](#Backlog-Refinement)
+        1. [Demos](#Demos)
+        1. [Retrospective](#Retrospective)
+        1. [Learning](#Learning)
+        1. [Tech Debt](#Tech-Debt)
+        1. [Time Tracking](#Time-Tracking)
+1. [Tools](#Tools)
+    1. [1Password](#1Password)
+    1. [Planning Poker Cards](#Planning-Poker-Cards)
+    1. [Slack](#Slack)
+    1. [Sprint Board](#Sprint-Board)
+    1. [Trello](#Trello)
+1. [Guidelines](#Guidelines)
+    1. [Design](#Design)
+    1. [Development](#Development)
+
 ## Process
 
 ### Discovery
 
-To request new software functionality or report a problem with a software system, users can add cards to the **Software Development** Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
+To request new software functionality or report a problem with a software system, users can add cards to the **Software Development** [Trello](#Trello) board using a web form, hosted internally on the Intranet. This form asks users to provide:
 
 - A title
 - A description
@@ -19,25 +52,15 @@ The team may also manually add cards to Trello at the request of management. Whe
 
 ### Triage
 
-From time to time, the team goes through all the cards in the **Inbox** list on the **Software Development** Trello board, to determine whether or not each idea adds value.
+From time to time, the team goes through all the cards in the **Inbox** list on the **Software Development** [Trello](#Trello) board, to determine whether or not each idea adds value.
 
 If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
 The team may need to consult the user to determine whether the idea adds value. Any discussion or clarifications should be added to the Trello card for future reference.
 
-### Prioritisation
-
-The business intermittently advises the team on their current short-term and long-term goals.
-
-At the start of a sprint, the team tries to pick stories relating to the business’ current priorities to include in the sprint.
-
-Priorities are also essential to keep in mind during **backlog refinement** meetings.
-
-It is more important for the team to specify and estimate stories relating to the business’ urgent priorities than reviewing more general feature requests.
-
 ### Research
 
-#### Writing Stories
+#### User Stories
 
 Before a request can be worked on, it gets broken down into one or more story cards. Each story should be the smallest possible increment to the relevant system (or multiple systems) which delivers value to the business. It is possible that it takes many such increments to reach the final solution to the problem initially presented by the customer. This is fine provided that each story has value on its own.
 
@@ -76,34 +99,32 @@ Relatively large business goals which include the completion of several stories 
 
 All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
-The **Current Epics** column (of the **Software Development** Trello board) contains cards describing epics to which some of the stories on the board currently belong.
+The **Current Epics** column (of the **Software Development** [Trello](#Trello) board) contains cards describing epics to which some of the stories on the board currently belong.
 
 #### UI Mockups
 
 For stories whose implementation require substantial user interface changes, UI mockups of one or more potential solutions are added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI works.
 
-#### Business Review
-
-Before a story can be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.
-
-Simplistic stories, such as bug descriptions, do not require a business review.
-
-Sometimes the team envisages a solution to the problem that is significantly different from the solution initially suggested by the member of the business. In these instances, a more in-depth discussion may be necessary to explain the story to the member of the business.
-
-If the business member is not happy with the story, the team rewrites the story to address their concerns.
-
 #### Definition of Ready
 
-A Trello card can be considered ready to be worked on if it meets the criteria defined by the **Invest** acronym:
+A Trello card can be considered ready to be [estimated](#estimating-effort) if it meets the criteria defined by the **INVEST** mnemonic, and has been business reviewed.
+
+##### INVEST
 
 - **I**ndependent. The story must be actionable and completable on its own. It shouldn’t be inherently dependent on another story.
 - **N**egotiable. Until it’s being done, it needs to be able to be rewritten. Allowance for change is built in.
 - **V**aluable. It delivers value to a customer or stakeholder.
-- **E**stimable. You need to be able to size it (using the process defined in the [Estimating Effort](#estimating-effort). section)
+- **E**stimable. You need to be able to estimate the size of it.
 - **S**mall. The story needs to be small enough to be able to estimate and plan for easily. If it is too big, rewrite it or break it down into smaller stories.
 - **T**estable. The story must have a test it is supposed to pass to be considered complete (these are defined in our Trello cards under the heading ‘Acceptance criteria’).
 
-Once the card is ready, it is tagged using the green ‘Ready’ tag on Trello. It is then eligible for selection during the next [Sprint Kick-off](#sprint-kick-off).
+##### Business Review
+
+Once the team believes a card is ready to be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.
+
+If the business member is not happy with the story or there are points that need clarification, the team will rewrite the story to address their concerns.
+
+Simplistic stories, such as bug descriptions, do not require a business review.
 
 ### Estimating Effort
 
@@ -121,7 +142,7 @@ The process for estimating a story is as follows.
    1. If everyone is within 1 card (e.g. 3 and 5 or 8 and 13), then the effort for the story is the average of the cards.
    2. If there is a wider spread (e.g. 3, 5 and 8), the team members who voted the highest and lowest explain why they voted as they did. For example, they might discuss the extent of required changes to systems, or the magnitude of testing required. The team then votes again.
 
-If, during estimation, a member of the team votes that a story's effort value is 21, the team will discuss whether the story can be broken down into two or more smaller stories. Stories should be as small as possible, whilst providing value on their own.
+If, during estimation, a member of the team votes that a story's effort value is 21, this is likely a sign that the story is not actually **S**mall (see [INVEST](#Invest)) and the team will discuss how it can be split into smaller stories to work on.
 
 ### Sprints
 
@@ -337,7 +358,7 @@ Trello cards get visibly tagged with one or more of the following:
 
 Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
 
-### Lists
+#### Lists
 
 The software development board contains the following lists. Cards are moved by the team to reflect their development progress.
 
