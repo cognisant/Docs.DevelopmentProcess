@@ -9,7 +9,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
     1. [Triage](#Triage)
     1. [Research](#Research)
         1. [User Stories](#Writing-Stories)
-        1. [Bug Cards](#Bug-Cards)
+        1. [Bugs](#Bug-Cards)
         1. [Epics](#Epics)
         1. [UI Mockups](#UI-Mockups)
         1. [Definition of Ready](#Definition-of-Ready)
@@ -59,9 +59,9 @@ Before a request can be worked on, it gets broken down into one or more story ca
 
 The story card is made up of three sections.
 
-##### User Story
+##### Story
 
-The user story is a concise description of the user’s problem, told from the perspective of the person who requested it. They usually take the following form:
+The story is a concise description of the user’s problem, told from the perspective of the person who requested it. They usually take the following form:
 
 As a `<type of user>`, I want `<their goal>` so that `<a reason>`.
 
@@ -75,7 +75,7 @@ The card also defines the minimum criteria which must be met for a solution to b
 
 The original request remains at the bottom of the Trello card in case we need to review it in future. This should not be modified.
 
-#### Bug Cards
+#### Bugs
 
 Some cards represent software defects rather than user stories. Descriptions of these cards follow a slightly different format to describe the steps necessary to reproduce the bug. The sections are as follows:
 
@@ -86,11 +86,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 #### Epics
 
-Several separate stories may relate to a single business objective.
-
-Relatively large business goals which include the completion of several stories are referred to as ‘epics’.
-
-All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
+Relatively large business goals which include the completion of several stories are referred to as ‘epics’. All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
 The **Current Epics** column (of the **Software Development** [Trello](#Trello) board) contains cards describing epics to which some of the stories on the board currently belong.
 
@@ -139,7 +135,7 @@ If, during estimation, a member of the team votes that a story's effort value is
 
 ### Sprints
 
-A sprint is a time-box during which a ‘[Done](#definition-of-done)’, useable, and potentially releasable product increment is created. At Cognisant we work in two-week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint.
+A sprint is a time-box during which a ‘[Done](docs/definition-of-done.md)’, usable, and potentially releasable product increment is created. At Cognisant we work in two-week sprints starting on a Monday and ending on a Friday. A new Sprint starts immediately after the conclusion of the previous Sprint.
 
 #### Sprint Kick-off
 
