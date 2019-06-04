@@ -132,7 +132,7 @@ The team uses numeric ‘effort’ points to represent the magnitude/difficulty 
 
 These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
 
-After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](#definition-of-done). Each member of the team has a deck of [planning poker cards](#planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](docs/definition-of-done.md). Each member of the team has a deck of [planning poker cards](#planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
 
 The process for estimating a story is as follows.
 
@@ -152,7 +152,11 @@ A sprint is a time-box during which a ‘[Done](#definition-of-done)’, useable
 
 On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off meeting.
 
-During this meeting the team engages in the following activities to prepare for the sprint:
+During the sprint kick-off meeting the team decides what will be worked on during the sprint.
+
+##### User Stories
+
+During this meeting the team engages in the following activities to prepare which user stories will be worked on during the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
   - Partially complete stories are not guaranteed to be included in the next sprint, a change in business priority may require a different set of stories to be worked on.
@@ -165,7 +169,26 @@ During this meeting the team engages in the following activities to prepare for 
   - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (*) on the sprint board.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
-#### The Sprint Board
+##### Retrospective Goals 
+
+The team agrees on a few tasks relating to potential process improvements identified during a previous [retrospective](#Retrospective) to complete during the sprint.
+
+The tasks are represented on the **sprint board** with a Post-it per task. There is a lane (row) on the **sprint board** used to track the completion of the retrospective-related tasks.
+
+##### Tech Debt
+
+Each sprint, the team selects some ‘tech debt’ to work on, alongside the rest of the planned work. This work involves technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
+
+Like **user stories**, tech debt jobs are broken down into small tasks and included on the **sprint board** in their own lane. However, tech debt tasks do not count towards the team's 'work in progress limit' (the team can work on three stories and tech debt concurrently).
+
+##### Other Tasks
+
+- Two team members are selected to spend a portion of their time [learning](#Learning)
+- One member of the team is selected for each week of the sprint to be on [support](#Support)
+
+#### During the Sprint
+
+##### The Sprint Board
 
 During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
@@ -178,20 +201,15 @@ The Post-its are moved through the columns on the board as they are worked on du
 
 When starting a task, a team member takes the single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
+Tasks remain in the verify column until the code has been reviewed by another team member based on the [definition of done](docs/definition-of-done.md). Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
 
 Stories that were deemed too small to be broken down into fine-grained tasks get grouped into a ‘Single Card Stories’ lane near the top of the board.
 
 To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
-In addition to user stories, the sprint board is also used to track **retrospective** goals, **tech debt**, support tickets and distractions. 
+In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](Tech-Debt), [support tickets](#support) and [distractions](#distractions). 
 
-A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
-These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
-
-Each week, a different member of the team is responsible for tracking and responding to support tickets. The member of the team will write up new tickets on Post-its, then place them in the lane for distractions. Like other tasks, they will be moved across the board as they are completed.
-
-#### Daily Scrums
+##### Daily Scrums
 
 On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the ‘daily scrum.’ Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
@@ -199,7 +217,27 @@ On each day of a sprint (excluding the first and last), at 1:30 pm, the team gat
 - What do you plan to do before the next meeting to help the team finish the Sprint?
 - What obstacles are getting in the team's way?
 
-The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
+The daily scrum meeting should not be used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
+
+##### Backlog Refinement
+
+To ensure that there are always enough sufficiently specified **user stories** to work on in future sprints, the team must allocate some time during each sprint to maintaining the backlog of work.
+
+Every week, the team has a scheduled meeting to discuss, review, write and estimate **user stories**. During this meeting the businesses priorities should be kept in mind to ensure the correct stories available to be worked on during upcoming sprints.
+
+##### Support
+
+When a team member is allocated to support, it is their responsibility to track and respond to support tickets as they arrive, and to triage tickets onto [the sprint board](#The-Sprint-Board) where appropriate. The member of the team will write up new tickets on Post-its, then place them on the board as a [distraction](#distractions). Like other tasks, they will be moved across the board as they are completed.
+
+##### Learning
+
+During the sprint, any member of the team allocated to learning should spend a portion of their time (currently 20%) on self-improvement. This should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources that may be relevant.
+
+##### Distractions
+
+A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
+
+These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
 
 #### End of Sprint
 
@@ -230,6 +268,12 @@ Members of the team take it in turns to bring snacks for the whole team to this 
 At the end of every sprint, each member of the team records how much time they spent working on projects for different customers in a 'Time Breakdowns' Google sheet. The amount of time each team member was absent from work is also recorded on this spreadsheet. This data is used to proportionately bill customers for the team's time.
 
 This is done as a percentage of the users time over the 2 week period, to a granularity of 1/2 a day (5% of the sprint).
+
+##### Tracking the productivity of the sprint
+
+The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time.
+
+The 'notes' section of this spreadsheet is used to record anything that may impact a future sprint, such as team member absences.
 
 ## Tools
 
