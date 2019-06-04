@@ -268,17 +268,17 @@ The 'notes' section of this spreadsheet is used to record anything that may impa
 
 ### 1Password
 
-1Password is the password manager the team uses to store and share work-related passwords securely.
+[1Password](https://1password.com) is the password manager the team uses to store and share work-related passwords securely.
 
 Team members use private vaults to manage passwords for their work-related accounts.
 
-There is also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
+There are also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
 If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
 
 ### Planning Poker Cards
 
-During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. Six-player decks can be purchased from [https://agilestationery.co.uk/products/estimation-poker-cards](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
+During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. Six-player decks can be purchased from [Agile Stationary](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
 
 ### Slack
 
@@ -301,8 +301,8 @@ We use magnetic column headers (these are nearly the same as ours - https://www.
 Marking tape is used to separate the board's columns (https://agilestationery.co.uk/products/whiteboard-marking-tape-3mm-black).
 
 We use 'super sticky' Post-its for tasks, stories and distractions:  
-76 x 76 mm - (https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/ref=sr_1_3?keywords=post-its&qid=1558108247&s=officeproduct&sr=1-3)  
-76 x 127 mm - (https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/ref=pd_sbs_229_2/260-3483606-7838723?_encoding=UTF8&pd_rd_i=B005IXGAWQ&pd_rd_r=5038ae10-78bb-11e9-9c2f-8dcc4d430633&pd_rd_w=H54wT&pd_rd_wg=IA7l7&pf_rd_p=18edf98b-139a-41ee-bb40-d725dd59d1d3&pf_rd_r=P88G6KFM95SS15ZFZ6CD&psc=1&refRID=P88G6KFM95SS15ZFZ6CD)
+- [76 x 76 mm](https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/)  
+- [76 x 127 mm](https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/)
 
 ### Trello
 
