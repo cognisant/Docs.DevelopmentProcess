@@ -155,15 +155,14 @@ On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off mee
 During this meeting the team engages in the following activities to prepare for the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
-- Some additional stories should be selected, which the team aims to complete during the new sprint.
+  - Partially complete stories are not guaranteed to be included in the next sprint, a change in business priority may require a different set of stories to be worked on.
+- A set of user stories should be selected, which the team aims to complete during the new sprint.
+  - The stories picked should primarily consist of those relating to the business’ current priorities.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
-- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the sprint board to allow us to track work during the sprint.
+- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the [sprint board](#the-sprint-board) to allow us to track work during the sprint.
   - A story may need to be branched from one different than master, in cases like this the branch name should be written on the story's Post-it.
+  - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (*) on the sprint board.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
-  
-There may be stories in a sprint which should be completed before other stories in the sprint. For example, if one story is somewhat dependant on another, the dependency should be worked on first. There may also be stories in a sprint which solve a potentially costly issue, which a customer is currently experiencing. These stories are 'priority stories'.
-
-At the sprint kick-off, when the team breaks down a 'priority story' into tasks and writes up Post-its for it, the story's story card (on the sprint board in the 'sprint' column) will be marked with an asterisk to highlight that it should be worked on before other stories.
 
 #### Tracking Progress
 
