@@ -16,7 +16,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
     1. [Estimating Effort](#Estimating-Effort)
     1. [Sprints](#Sprints)
         1. [Sprint Kick-off](#Sprint-Kick-off)
-        1. [Tracking Progress](#Tracking-Progress)
+        1. [The Sprint Board](#The-Sprint-Board)
         1. [Daily Scrums](#Daily-Scrums)
         1. [Definition of Done](#Definition-of-Done)
         1. [Backlog Refinement](#Backlog-Refinement)
@@ -160,15 +160,14 @@ During this meeting the team engages in the following activities to prepare for 
   - The stories picked should primarily consist of those relating to the business’ current priorities.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the [sprint board](#the-sprint-board) to allow us to track work during the sprint.
+  - If a story is deemed small enough it is left as a single large story Post-it.
   - A story may need to be branched from one different than master, in cases like this the branch name should be written on the story's Post-it.
   - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (*) on the sprint board.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
-#### Tracking Progress
+#### The Sprint Board
 
-##### The Sprint Board
-
-During the sprint, the team’s progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
 
 ![The Cognisant development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
 
@@ -181,10 +180,9 @@ When starting a task, a team member takes the single task Post-it, adds their in
 
 Tasks remain in the verify column until the code has been reviewed by another team member. Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
 
-Occasionally, stories may be deemed too small to be broken down into fine-grained tasks. These get grouped into a ‘Single Card Stories’ lane at the top of the board.
+Stories that were deemed too small to be broken down into fine-grained tasks get grouped into a ‘Single Card Stories’ lane near the top of the board.
 
-To minimise the quantity of partially complete stories at the end of a sprint, a [limit](https://github.com/cognisant/Docs.DevelopmentProcess/blob/master/docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories.
-The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
+To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
 In addition to user stories, the sprint board is also used to track **retrospective** goals, **tech debt**, support tickets and distractions. 
 
@@ -193,99 +191,45 @@ These are recorded on Post-it notes with a description and a rough estimate of t
 
 Each week, a different member of the team is responsible for tracking and responding to support tickets. The member of the team will write up new tickets on Post-its, then place them in the lane for distractions. Like other tasks, they will be moved across the board as they are completed.
 
-##### Tracking the productivity of different sprints
-
-The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time.
-The 'notes' section of this spreadsheet is used to record team members' planned leave from work.
-
 #### Daily Scrums
 
 On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the ‘daily scrum.’ Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
 
 - What did you do since the last meeting to help the team finish the Sprint?
 - What do you plan to do before the next meeting to help the team finish the Sprint?
-- What obstacles are getting in the team’s way?
+- What obstacles are getting in the team's way?
 
 The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
 
-#### Definition of Done
+#### End of Sprint
 
-It is essential to have a well defined ‘definition of done’ so that we know when we should call a story complete. This effectively forms an implicit set of acceptance criteria which is applied to every story. Our definition of done is expected to evolve. Currently, it includes the following criteria:
+##### Demos
 
-- Working code has been produced which satisfies all acceptance criteria listed on the Trello card.
-- All code conforms to our chosen style for the relevant language. This rule is relaxed for projects which have not yet been fully converted to conform with our style guide.
-- Documentation has been produced.
-  - All projects should have a set of release notes in the PR comment. They should describe any new functionality as well as a technical description of any configuration or infrastructure changes required to deploy it.
-  - For projects which are formally documented, the documentation should be reviewed and updated where appropriate.
-- Unit tests have been written where appropriate, and all existing tests are passing.
-- Manual testing has been performed to ensure that the feature works as expected.
-- The working change has been demonstrated to the rest of the team.
-- The automated TeamCity build for the project is succeeding.
-- A pull request has been submitted to the appropriate repository and reviewed by at least one other member of the team.
-- Any required configuration or process changes have been made in Octopus Deploy so that the change could be deployed with no additional work.
+On the last day of a sprint, the team hosts a demo session to show what has been accomplished during the sprint. This is an open session that can be attended by any interested party, ideally at least one representative from each business department should attend.
 
-#### Backlog Refinement
+The demo is an opportunity for the business to provide feedback on the work done, as well as to facilitate a discussion in the steps required to get these changes into production (such as validation, updating SOPs and user training).
 
-To ensure that there are always enough sufficiently specified **user stories** to work on in future sprints, the team must allocate some time during each sprint to maintaining the backlog of work.
+Any issues that are identified during the demo should be added into the idea backlog, so that they can be corrected in a future sprint. This may be either as a user story, or a bug, depending on the nature of the issue.
 
-Every Tuesday afternoon, the team has a meeting to discuss, review, write and estimate **user stories**. These meetings are called backlog refinement meetings.
+##### Retrospective
 
-#### Demos
+After the demo, the team has a retrospective meeting. During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
-On the last day of a sprint, the team meets with relevant members of the business to present them the work the team completed during the sprint.
+The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
 
-The demo is an opportunity for the business to provide feedback on the work.
-
-Often, any small problems the business points out can be corrected before the end of the day.
-
-This meeting is also a chance for the team to explain how the completed work applies to the business’ short term goals.
-
-There is usually a discussion about when the work might be deployed to production and become accessible to users.
-
-#### Retrospective
-
-On the last day of a sprint, after the demo, the team has a retrospective meeting.
-
-Members of the team take it in turns to bring snacks for the whole team to this meeting.
-
-During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
-
-The primary objective of these meetings is to identify improvements that could be made to the development process.
-
-During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
-
-At the meeting, the team reviews all of the discussion points added to the board.
-
-If necessary, the team attempts to think of a systematic method of addressing a point raised.
-
-Often discussion points are merely something to keep in mind during future sprints or a small problem that can be immediately addressed with a simple action.
-
-Any possible process improvements agreed upon by the team get trialled in a future sprint, then discussed and refined during that sprint’s retrospective.
+As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](Retrospective-Board) as a potential future process improvement.
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
 
-During the retrospective, the distractions recorded during the sprint are reviewed. The team attempts to identify groups of distractions that could be reduced with software or process improvements (a few distractions may have been caused by the same, or similar, recurring issues). This often leads to cards being added to a Trello board to prompt future action.
+Also during the retrospective, the distractions recorded during the sprint are reviewed. The team attempts to identify groups of distractions that could be reduced with software or process improvements (for example, when a few distractions are caused by the same, or similar, recurring issues). This can lead to cards being added to a Trello board to prompt future action.
 
-##### Retrospective Goals 
+Members of the team take it in turns to bring snacks for the whole team to this meeting.
 
-At the start of every sprint, the team agrees on a few tasks relating to retrospective discussion points to complete during the sprint.
-
-These tasks could be researching a possible process improvement, or documenting a newly adopted process improvement.
-The tasks are represented on the **sprint board** with a Post-it per task. There is a lane (row) on the **sprint board** used to track the completion of the retrospective-related tasks.
-
-#### Learning
-
-Each sprint, two team members are selected to spend a portion of their time learning. This training should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources.
-
-#### Tech Debt
-
-Each sprint, the team selects some ‘tech debt’ to work on, alongside the rest of the planned work. This work involves technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
-
-Like **user stories**, tech debt jobs are broken down into small tasks and included on the **sprint board** in their own lane. However, tech debt tasks do not count towards the team's 'work in progress limit' (the team can work on three stories and tech debt concurrently).
-
-#### Time Tracking
+##### Time Tracking
 
 At the end of every sprint, each member of the team records how much time they spent working on projects for different customers in a 'Time Breakdowns' Google sheet. The amount of time each team member was absent from work is also recorded on this spreadsheet. This data is used to proportionately bill customers for the team's time.
+
+This is done as a percentage of the users time over the 2 week period, to a granularity of 1/2 a day (5% of the sprint).
 
 ## Tools
 
@@ -333,7 +277,9 @@ Each customer has their board on [Trello](https://trello.com) to hold their back
 
 End users do not have access to modify cards on this board directly but can add comments and subscribe to the card to receive notifications on its progress.
 
-#### Trello Card Format
+#### Software Development Boards
+
+##### Trello Card Format
 
 **Title**
 
@@ -357,7 +303,7 @@ Trello cards get visibly tagged with one or more of the following:
 
 Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
 
-#### Lists
+##### Lists
 
 The software development board contains the following lists. Cards are moved by the team to reflect their development progress.
 
@@ -374,6 +320,10 @@ The software development board contains the following lists. Cards are moved by 
 - **Deployed** for completed work which has been deployed to production.
 
 In general, the team tries to organise each list so that higher priority cards are nearer the top. This is meant as an indication of priorities rather than a strict contract for which cards will be worked on next.
+
+#### Retrospective Board
+
+During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
 
 ## Guidelines
 
