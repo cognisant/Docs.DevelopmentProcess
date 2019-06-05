@@ -5,50 +5,50 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 ## Contents
 
 1. [Process](#Process)
-    1. [Discovery](#Discovery)
-    1. [Triage](#Triage)
-    1. [Research](#Research)
-        1. [User Stories](#User-Stories)
-        1. [Bugs](#Bug-Cards)
-        1. [Epics](#Epics)
-        1. [UI Mockups](#UI-Mockups)
-        1. [Definition of Ready](#Definition-of-Ready)
-    1. [Estimating Effort](#Estimating-Effort)
-    1. [Sprints](#Sprints)
-        1. [Sprint Kick-off](#Sprint-Kick-off)
-        1. [During the Sprint](#During-the-Sprint)
-        1. [End of Sprint](#End-of-Sprint)
+   1. [Discovery](#Discovery)
+   1. [Triage](#Triage)
+   1. [Research](#Research)
+      1. [User Stories](#User-Stories)
+      1. [Bugs](#Bug-Cards)
+      1. [Epics](#Epics)
+      1. [UI Mockups](#UI-Mockups)
+      1. [Definition of Ready](#Definition-of-Ready)
+   1. [Estimating Effort](#Estimating-Effort)
+   1. [Sprints](#Sprints)
+      1. [Sprint Kick-off](#Sprint-Kick-off)
+      1. [During the Sprint](#During-the-Sprint)
+      1. [End of Sprint](#End-of-Sprint)
 1. [Tools](#Tools)
-    1. [Planning Poker Cards](#Planning-Poker-Cards)
-    1. [Sprint Board](#Sprint-Board)
-    1. [Post-Its](#Post-Its)
-    1. [Trello](#Trello)
-    1. [Slack](#Slack)
-    1. [TeamCity](#TeamCity)
-    1. [Octopus Deploy](#Octopus-Deploy)
-    1. [1Password](#1Password)
+   1. [Planning Poker Cards](#Planning-Poker-Cards)
+   1. [Sprint Board](#Sprint-Board)
+   1. [Post-Its](#Post-Its)
+   1. [Trello](#Trello)
+   1. [Slack](#Slack)
+   1. [TeamCity](#TeamCity)
+   1. [Octopus Deploy](#Octopus-Deploy)
+   1. [1Password](#1Password)
 1. [Guidelines](#Guidelines)
-    1. [Design](#Design)
-    1. [Development](#Development)
+   1. [Design](#Design)
+   1. [Development](#Development)
 
 ## Process
 
 ### Discovery
 
-To request new software functionality or report a problem with a software system, users can add cards to the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
+To request new software functionality or report a problem with a software system, users can add cards to the [Software Development](docs/Trello#software-development-boards) Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
 
 - A title
 - A description
 - A proposed solution (optional)
 - The impact on the business
 
-When a user submits information using this form, a card is created in the **Inbox** list on the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board containing all the information they provided, along with their name and email address.
+When a user submits information using this form, a card is created in the **Inbox** list on the [Software Development](docs/Trello#software-development-boards) Trello board containing all the information they provided, along with their name and email address.
 
 The team may also manually add cards to Trello at the request of management. When this happens, cards should follow the same format as above.
 
 ### Triage
 
-From time to time, the team goes through all the cards in the **Inbox** list on the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board, to determine whether or not each idea adds value.
+From time to time, the team goes through all the cards in the **Inbox** list on the [Software Development](docs/Trello#software-development-boards) Trello board, to determine whether or not each idea adds value.
 
 If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
@@ -158,10 +158,10 @@ During this meeting the team engages in the following activities to prepare whic
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the [sprint board](#the-sprint-board) to allow us to track work during the sprint.
   - If a story is deemed small enough it is left as a single large story Post-it.
   - A story may need to be branched from one different than master, in cases like this the branch name should be written on the story's Post-it.
-  - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (*) on the sprint board.
+  - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (\*) on the sprint board.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
-##### Retrospective Goals 
+##### Retrospective Goals
 
 The team agrees on a few tasks relating to potential process improvements identified during a previous [retrospective](#Retrospective) to complete during the sprint.
 
@@ -193,13 +193,13 @@ The Post-its are moved through the columns on the board as they are worked on du
 
 When starting a task, a team member takes the single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
-Tasks remain in the verify column until the code has been reviewed by another team member based on the [definition of done](docs/definition-of-done.md). Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column. 
+Tasks remain in the verify column until the code has been reviewed by another team member based on the [definition of done](docs/definition-of-done.md). Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column.
 
 Stories that were deemed too small to be broken down into fine-grained tasks get grouped into a ‘Single Card Stories’ lane near the top of the board.
 
 To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories however this is not a fixed limit and may be raised (or lowered) based on sprint composition. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
-In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](#Tech-Debt), [support tickets](#support) and [distractions](#distractions). 
+In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](#Tech-Debt), [support tickets](#support) and [distractions](#distractions).
 
 ##### Daily Scrums
 
@@ -283,8 +283,9 @@ Marking tape is used to separate the board's columns (https://agilestationery.co
 
 ### Post-its
 
-We use 'super sticky' Post-its for tasks, stories and distractions:  
-- [76 x 76 mm](https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/)  
+We use 'super sticky' Post-its for tasks, stories and distractions:
+
+- [76 x 76 mm](https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/)
 - [76 x 127 mm](https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/)
 
 ### Trello
