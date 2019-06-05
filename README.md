@@ -358,14 +358,6 @@ Card descriptions are added to by the development team. To begin with, they incl
 
 During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
 
-## Guidelines
-
-### Design
-
-### Development
-
-- [Source Control](docs/source-control.md)
-
 #### TeamCity
 
 [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
@@ -383,6 +375,14 @@ Each Cognisant project will have a corresponding project in octopus deploy. The 
 Each project may also have some variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
 
 For software which is deployed to multiple customers, Octopus supports the concept of ‘Tenants.’ This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
+
+## Guidelines
+
+### Design
+
+### Development
+
+- [Source Control](docs/source-control.md)
 
 #### Code Style
 
