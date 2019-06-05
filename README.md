@@ -9,7 +9,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
    1. [Triage](#Triage)
    1. [Research](#Research)
       1. [User Stories](#User-Stories)
-      1. [Bugs](#Bug-Cards)
+      1. [Bugs](#Bugs)
       1. [Epics](#Epics)
       1. [UI Mockups](#UI-Mockups)
       1. [Definition of Ready](#Definition-of-Ready)
