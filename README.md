@@ -24,6 +24,8 @@ Cognisant develops software products for several companies. It uses the [Scrum](
     1. [Slack](#Slack)
     1. [Sprint Board](#Sprint-Board)
     1. [Trello](#Trello)
+    1. [TeamCity](#TeamCity)
+    1. [Octopus Deploy](#Octopus-Deploy)
 1. [Guidelines](#Guidelines)
     1. [Design](#Design)
     1. [Development](#Development)
