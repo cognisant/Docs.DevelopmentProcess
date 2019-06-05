@@ -8,7 +8,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
     1. [Discovery](#Discovery)
     1. [Triage](#Triage)
     1. [Research](#Research)
-        1. [User Stories](#Writing-Stories)
+        1. [User Stories](#User-Stories)
         1. [Bugs](#Bug-Cards)
         1. [Epics](#Epics)
         1. [UI Mockups](#UI-Mockups)
@@ -21,6 +21,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 1. [Tools](#Tools)
     1. [Planning Poker Cards](#Planning-Poker-Cards)
     1. [Sprint Board](#Sprint-Board)
+    1. [Post-Its](#Post-Its)
     1. [Trello](#Trello)
     1. [Slack](#Slack)
     1. [TeamCity](#TeamCity)
@@ -34,20 +35,20 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 
 ### Discovery
 
-To request new software functionality or report a problem with a software system, users can add cards to the **Software Development** [Trello](#Trello) board using a web form, hosted internally on the Intranet. This form asks users to provide:
+To request new software functionality or report a problem with a software system, users can add cards to the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
 
 - A title
 - A description
 - A proposed solution (optional)
 - The impact on the business
 
-When a user submits information using this form, a card is created in the **Inbox** list on the **Software Development** Trello board containing all the information they provided, along with their name and email address.
+When a user submits information using this form, a card is created in the **Inbox** list on the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board containing all the information they provided, along with their name and email address.
 
 The team may also manually add cards to Trello at the request of management. When this happens, cards should follow the same format as above.
 
 ### Triage
 
-From time to time, the team goes through all the cards in the **Inbox** list on the **Software Development** [Trello](#Trello) board, to determine whether or not each idea adds value.
+From time to time, the team goes through all the cards in the **Inbox** list on the [Software Development][Software Development](docs/Trello#software-development-boards) Trello board, to determine whether or not each idea adds value.
 
 If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
@@ -90,7 +91,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 Relatively large business goals which include the completion of several stories are referred to as ‘epics’. All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
-The **Current Epics** column (of the **Software Development** [Trello](#Trello) board) contains cards describing epics to which some of the stories on the board currently belong.
+The **Current Epics** column (of the [Software Development](docs/Trello#software-development-boards) Trello board) contains cards describing epics to which some of the stories on the board currently belong.
 
 #### UI Mockups
 
@@ -164,7 +165,7 @@ During this meeting the team engages in the following activities to prepare whic
 
 The team agrees on a few tasks relating to potential process improvements identified during a previous [retrospective](#Retrospective) to complete during the sprint.
 
-The tasks are represented on the **sprint board** with a Post-it per task. There is a lane (row) on the **sprint board** used to track the completion of the retrospective-related tasks.
+The tasks are represented on the **sprint board** with either a Post-it per task, or may be split down in the same way as user stories. There is a lane on the **sprint board** used to track the completion of the retrospective-related tasks.
 
 ##### Tech Debt
 
@@ -188,7 +189,7 @@ During the sprint, the team's progress on the tasks generated during the sprint 
 Columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’ occupy most of the sprint board. The team uses these to track the progress of work during a sprint.
 
 Tasks belonging to stories are represented by Post-its on the board. Each story's task Post-its are grouped into horizontal lanes signified by a title card on the far left.
-The Post-its are moved through the columns on the board as they are worked on during the sprint. By the end of a sprint, most (if not all) of the task Post-its will have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
+The Post-its are moved through the columns on the board as they are worked on during the sprint. By the end of a sprint, all of the task Post-its should have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
 
 When starting a task, a team member takes the single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
 
@@ -196,9 +197,9 @@ Tasks remain in the verify column until the code has been reviewed by another te
 
 Stories that were deemed too small to be broken down into fine-grained tasks get grouped into a ‘Single Card Stories’ lane near the top of the board.
 
-To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
+To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories however this is not a fixed limit and may be raised (or lowered) based on sprint composition. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
-In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](Tech-Debt), [support tickets](#support) and [distractions](#distractions). 
+In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](#Tech-Debt), [support tickets](#support) and [distractions](#distractions). 
 
 ##### Daily Scrums
 
@@ -218,7 +219,7 @@ Every week, the team has a scheduled meeting to discuss, review, write and estim
 
 ##### Support
 
-When a team member is allocated to support, it is their responsibility to track and respond to support tickets as they arrive, and to triage tickets onto [the sprint board](#The-Sprint-Board) where appropriate. The member of the team will write up new tickets on Post-its, then place them on the board as a [distraction](#distractions). Like other tasks, they will be moved across the board as they are completed.
+When a team member is allocated to support, it is their responsibility to track and respond to [support tickets](#Freshservice) as they arrive, and to triage tickets onto [the sprint board](#The-Sprint-Board) where appropriate. The member of the team will write up new tickets on Post-its, then place them on the board as a [distraction](#distractions). Like other tasks, they will be moved across the board as they are completed.
 
 ##### Learning
 
@@ -244,9 +245,9 @@ Any issues that are identified during the demo should be added into the idea bac
 
 After the demo, the team has a retrospective meeting. During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
-The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
+The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](docs/trello#Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
 
-As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](Retrospective-Board) as a potential future process improvement.
+As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](docs/trello#Retrospective-Board) as a potential future process improvement.
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
 
@@ -280,63 +281,15 @@ We use magnetic column headers (these are nearly the same as ours - https://www.
 
 Marking tape is used to separate the board's columns (https://agilestationery.co.uk/products/whiteboard-marking-tape-3mm-black).
 
+### Post-its
+
 We use 'super sticky' Post-its for tasks, stories and distractions:  
 - [76 x 76 mm](https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/)  
 - [76 x 127 mm](https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/)
 
 ### Trello
 
-Each customer has a board on [Trello](https://trello.com) to hold their backlog of change requests.
-
-End users do not have access to modify cards on this board directly but can add comments and subscribe to the card to receive notifications on its progress.
-
-#### Software Development Boards
-
-##### Lists
-
-The software development board contains the following lists. Cards are moved by the team to reflect their development progress.
-
-- **Current Epics** a set of cards representing all currently active epics.
-- **Inbox** is a list of new requests fed by the feature request form.
-- **Idea Backlog** for cards containing ideas worth exploring.
-- **Researching Solution** for cards which are being actively researched and specified in the current sprint.
-- **Product Backlog** for cards which have been fully specified and could potentially be worked on soon.
-- **Current Sprint** for cards that are being worked on in the current sprint.
-    - The title of this list includes the start and end dates of the sprint. These are updated at the start of every sprint to inform customers of when work in the current sprint might be completed.
-- **Done** For completed work that has not yet begun UAT/Validation.
-- **In Validation / UAT** for cards that are currently actively undergoing validation or user acceptance testing.
-- **Ready To Deploy** for cards that have been validated and can be deployed.
-- **Deployed** for completed work which has been deployed to production.
-
-In general, the team tries to organise each list so that higher priority cards are nearer the top. This is meant as an indication of priorities rather than a strict contract for which cards will be worked on next.
-
-##### Trello Card Format
-
-**Title**
-
-They should contain a summary of the story; often this can be copied and pasted from the “I want...” portion of the story. Card titles may change as the problem and solutions are better understood.
-
-**Estimates**
-
-Effort estimates are stored in a custom field with the crystal ball symbol (🔮).
-
-**Tags**
-
-Trello cards get visibly tagged with one or more of the following:
-
-- A blue tag indicating the epic to which they belong
-- A red ‘Bug’ tag, indicating that this is a defect, rather than a new request.
-- A green ‘Ready’ tag, indicating that the story is ready to be worked on.
-- A pink ‘Regulatory Commitment’ tag, for stories that have been promised to regulators as corrective/preventative actions.
-- One or more grey tags indicating the system(s) that are impacted by the change. These are not visible on the face of the card, but allow easy filtering by a system.
-
-**Descriptions**
-
-Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
-
-#### Retrospective Board
-
-During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
+See [trello.md](docs/trello).
 
 ### Slack
 
