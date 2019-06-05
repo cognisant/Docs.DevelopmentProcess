@@ -50,4 +50,4 @@ Card descriptions are added to by the development team. To begin with, they incl
 
 ## Retrospective Board
 
-During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
+The team uses a board on Trello to track both potential retrospective discussion points, and actionable tasks that have been identified as potential future process improvements.
