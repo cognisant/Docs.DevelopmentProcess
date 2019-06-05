@@ -19,13 +19,13 @@ Cognisant develops software products for several companies. It uses the [Scrum](
         1. [During the Sprint](#During-the-Sprint)
         1. [End of Sprint](#End-of-Sprint)
 1. [Tools](#Tools)
-    1. [1Password](#1Password)
     1. [Planning Poker Cards](#Planning-Poker-Cards)
-    1. [Slack](#Slack)
     1. [Sprint Board](#Sprint-Board)
     1. [Trello](#Trello)
+    1. [Slack](#Slack)
     1. [TeamCity](#TeamCity)
     1. [Octopus Deploy](#Octopus-Deploy)
+    1. [1Password](#1Password)
 1. [Guidelines](#Guidelines)
     1. [Design](#Design)
     1. [Development](#Development)
@@ -268,31 +268,9 @@ The 'notes' section of this spreadsheet is used to record anything that may impa
 
 ## Tools
 
-### 1Password
-
-[1Password](https://1password.com) is the password manager the team uses to store and share work-related passwords securely.
-
-Team members use private vaults to manage passwords for their work-related accounts.
-
-There are also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
-
-If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
-
 ### Planning Poker Cards
 
 During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. Six-player decks can be purchased from [Agile Stationary](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
-
-### Slack
-
-[Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person-to-person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
-
-The `#general` channel exists by default and can be used for general team discussions and announcements.
-
-Channels regarding a particular project are prefixed with `proj`, for example, `#proj-order-manager`.
-
-Temporary channels for ad-hoc discussions are prefixed with `temp`, for example, `#temp-balances`.
-
-Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example, `#bot-monitoring`.
 
 ### Sprint Board
 
@@ -360,7 +338,19 @@ Card descriptions are added to by the development team. To begin with, they incl
 
 During the sprint, the team uses the Retrospective Trello board to record any points they think should be discussed at the retrospective.
 
-#### TeamCity
+### Slack
+
+[Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person-to-person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
+
+The `#general` channel exists by default and can be used for general team discussions and announcements.
+
+Channels regarding a particular project are prefixed with `proj`, for example, `#proj-order-manager`.
+
+Temporary channels for ad-hoc discussions are prefixed with `temp`, for example, `#temp-balances`.
+
+Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example, `#bot-monitoring`.
+
+### TeamCity
 
 [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from JetBrains.
 
@@ -368,7 +358,7 @@ Each Cognisant project has a corresponding configuration in TeamCity created at 
 
 The build status is automatically pushed back as a status check on the Github pull request. This prevents any change from being merged if it does not build and pass all automated tests.
 
-#### Octopus Deploy
+### Octopus Deploy
 
 [Octopus deploy](https://octopus.com) is a deployment automation server designed to make it easy to orchestrate releases and deploy applications, whether on-premises or in the cloud.
 
@@ -377,6 +367,16 @@ Each Cognisant project will have a corresponding project in octopus deploy. The 
 Each project may also have some variables defined. Upon deployment, Octopus is capable of replacing placeholder values in config files with the appropriate value for the environment into which the software is being deployed (Test, Production, etc.).
 
 For software which is deployed to multiple customers, Octopus supports the concept of ‘Tenants.’ This allows, for example, Bath ASU and Pharmaxo to receive the same system, deployed to separate servers and with bespoke configuration variables.
+
+### 1Password
+
+[1Password](https://1password.com) is the password manager the team uses to store and share work-related passwords securely.
+
+Team members use private vaults to manage passwords for their work-related accounts.
+
+There are also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
+
+If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
 
 ## Guidelines
 
