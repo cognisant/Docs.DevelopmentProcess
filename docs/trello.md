@@ -51,3 +51,12 @@ Card descriptions are added to by the development team. To begin with, they incl
 ## Retrospective Board
 
 The team uses a board on Trello to track both potential retrospective discussion points, and actionable tasks that have been identified as potential future process improvements.
+
+## Tech Debt Board
+
+The team uses a board on Trello to track outstanding technical debt. This is split into four lists:
+
+- **Inbox** is a list of technical debt tasks that have yet to be prioritised.
+- **On Hold** is a list of technical debt tasks that are not yet ready to be worked on, e.g. utilising tools that are not yet ready for production use.
+- **Epics** is a list of large scale technical debt tasks, such as updating dependencies across all projects.
+- **Tasks** is a list of fine grained technical debt tasks that could be worked on, these will often be linked to an epic however may just be a stand alone task that doesn't fit into an epic.

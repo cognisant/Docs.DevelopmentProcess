@@ -9,7 +9,8 @@ Cognisant develops software products for several companies. It uses the [Scrum](
    1. [Triage](#Triage)
    1. [Research](#Research)
       1. [User Stories](#User-Stories)
-      1. [Bugs](#Bugs)
+      1. [Bugs](#Bug-Cards)
+      1. [Technical Debt](#Technical-Debt)
       1. [Epics](#Epics)
       1. [UI Mockups](#UI-Mockups)
       1. [Definition of Ready](#Definition-of-Ready)
@@ -87,6 +88,14 @@ Some cards represent software defects rather than user stories. Descriptions of 
 - **Actual Behaviour** - the actual (incorrect) behaviour exhibited by the system.
 - **Impact** - the business impact of the bug.
 
+#### Technical Debt
+
+Some cards represent [technical debt](https://en.wikipedia.org/wiki/Technical_debt) that has accumulated over time for various reasons, these are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
+
+Technical debt cards are managed on a separate [tech debt](docs/Trello#Tech-Debt-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/Trello#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
+
+The format of a technical debt card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
+
 #### Epics
 
 Relatively large business goals which include the completion of several stories are referred to as ‘epics’. All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
@@ -146,13 +155,13 @@ On the first Monday of a sprint, at 10 am, the sprint begins with a kick-off mee
 
 During the sprint kick-off meeting the team decides what will be worked on during the sprint.
 
-##### User Stories
+##### Stories
 
-During this meeting the team engages in the following activities to prepare which user stories will be worked on during the sprint:
+During this meeting the team engages in the following activities to prepare which user stories, bug cards and technical debt will be worked on during the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
   - Partially complete stories are not guaranteed to be included in the next sprint, a change in business priority may require a different set of stories to be worked on.
-- A set of user stories should be selected, which the team aims to complete during the new sprint.
+- A set of stories should be selected, which the team aims to complete during the new sprint.
   - The stories picked should primarily consist of those relating to the business’ current priorities.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
 - Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the [sprint board](#the-sprint-board) to allow us to track work during the sprint.
@@ -166,12 +175,6 @@ During this meeting the team engages in the following activities to prepare whic
 The team agrees on a few tasks relating to potential process improvements identified during a previous [retrospective](#Retrospective) to complete during the sprint.
 
 The tasks are represented on the **sprint board** with either a Post-it per task, or may be split down in the same way as user stories. There is a lane on the **sprint board** used to track the completion of the retrospective-related tasks.
-
-##### Tech Debt
-
-Each sprint, the team selects some ‘tech debt’ to work on, alongside the rest of the planned work. This work involves technical improvements to our projects which have not been directly requested by the business but are nonetheless valuable. Examples of this type of work might include making improvements to our build/deployment infrastructure or updating dependencies to ensure we have the latest security patches.
-
-Like **user stories**, tech debt jobs are broken down into small tasks and included on the **sprint board** in their own lane. However, tech debt tasks do not count towards the team's 'work in progress limit' (the team can work on three stories and tech debt concurrently).
 
 ##### Other Tasks
 
