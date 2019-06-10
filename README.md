@@ -36,20 +36,20 @@ Cognisant develops software products for several companies. It uses the [Scrum](
 
 ### Discovery
 
-To request new software functionality or report a problem with a software system, users can add cards to the [Software Development](docs/Trello#software-development-boards) Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
+To request new software functionality or report a problem with a software system, users can add cards to the [Software Development](docs/Trello.md#software-development-boards) Trello board using a web form, hosted internally on the Intranet. This form asks users to provide:
 
 - A title
 - A description
 - A proposed solution (optional)
 - The impact on the business
 
-When a user submits information using this form, a card is created in the **Inbox** list on the [Software Development](docs/Trello#software-development-boards) Trello board containing all the information they provided, along with their name and email address.
+When a user submits information using this form, a card is created in the **Inbox** list on the [Software Development](docs/Trello.md#software-development-boards) Trello board containing all the information they provided, along with their name and email address.
 
 The team may also manually add cards to Trello at the request of management. When this happens, cards should follow the same format as above.
 
 ### Triage
 
-From time to time, the team goes through all the cards in the **Inbox** list on the [Software Development](docs/Trello#software-development-boards) Trello board, to determine whether or not each idea adds value.
+From time to time, the team goes through all the cards in the **Inbox** list on the [Software Development](docs/Trello.md#software-development-boards) Trello board, to determine whether or not each idea adds value.
 
 If an idea is valuable, it gets moved to the **Idea Backlog** list. Otherwise, a comment is left on the card explaining the decision, and the card is archived.
 
@@ -92,7 +92,7 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 Some cards represent [technical debt](https://en.wikipedia.org/wiki/Technical_debt) that has accumulated over time for various reasons, these are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
 
-Technical debt cards are managed on a separate [tech debt](docs/Trello#Tech-Debt-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/Trello#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
+Technical debt cards are managed on a separate [tech debt](docs/Trello.md#Tech-Debt-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/Trello.md#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
 
 The format of a technical debt card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
 
@@ -100,7 +100,7 @@ The format of a technical debt card is not fixed due to the wide ranging nature 
 
 Relatively large business goals which include the completion of several stories are referred to as ‘epics’. All of the stories which belong to an epic are labelled (on their Trello card) with the name of the relevant epic.
 
-The **Current Epics** column (of the [Software Development](docs/Trello#software-development-boards) Trello board) contains cards describing epics to which some of the stories on the board currently belong.
+The **Current Epics** column (of the [Software Development](docs/Trello.md#software-development-boards) Trello board) contains cards describing epics to which some of the stories on the board currently belong.
 
 #### UI Mockups
 
@@ -248,9 +248,9 @@ Any issues that are identified during the demo should be added into the idea bac
 
 After the demo, the team has a retrospective meeting. During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
-The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](docs/trello#Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
+The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](docs/trello.md#Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
 
-As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](docs/trello#Retrospective-Board) as a potential future process improvement.
+As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](docs/trello.md#Retrospective-Board) as a potential future process improvement.
 
 An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
 
@@ -293,7 +293,7 @@ We use 'super sticky' Post-its for tasks, stories and distractions:
 
 ### Trello
 
-See [trello.md](docs/trello).
+See [trello.md](docs/trello.md).
 
 ### Slack
 
