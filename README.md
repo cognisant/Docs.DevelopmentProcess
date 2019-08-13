@@ -28,6 +28,7 @@ Cognisant develops software products for several companies. It uses the [Scrum](
    1. [TeamCity](#TeamCity)
    1. [Octopus Deploy](#Octopus-Deploy)
    1. [1Password](#1Password)
+1. [Ceremony Agenda](#Ceremony-Agenda)
 1. [Guidelines](#Guidelines)
    1. [Design](#Design)
    1. [Development](#Development)
@@ -334,6 +335,10 @@ Team members use private vaults to manage passwords for their work-related accou
 There are also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
 If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
+
+## Ceremony Agenda
+
+- [Daily scrum](/docs/ceremony-agenda/scrum.md)
 
 ## Guidelines
 
