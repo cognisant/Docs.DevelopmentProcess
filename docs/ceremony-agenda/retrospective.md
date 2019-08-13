@@ -1,4 +1,4 @@
-# Retrospective
+# Retrospective Agenda
 
 - Move done and deployed stories out of the current sprint backlog on Trello.
 - Discuss:

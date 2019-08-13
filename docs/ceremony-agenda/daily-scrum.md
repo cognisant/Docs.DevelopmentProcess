@@ -1,4 +1,4 @@
-# Scrum Agenda
+# Daily Scrum Agenda
 
 The daily scrum is a quick meeting to update the team’s shared understanding of the sprint’s progress. It is not for discussing tasks or technical detail.
 
