@@ -1,8 +1,8 @@
 # Demo Agenda
 
 - Briefly overview the changes that will be demonstrated
-- For each completed story which affects a user's experience (with stories ordered in a logical narrative structure):
-  - Walk through the change
+- For each completed story that affects a user's experience (with stories ordered in a logical narrative structure):
+  - Demonstrate the change on representative hardware
   - Discuss and explain the change
 - Discuss partially complete work (if any) that is of interest but not yet demonstrable
 - Discuss progress on current epics and smaller business objectives
