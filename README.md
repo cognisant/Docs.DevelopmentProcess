@@ -341,6 +341,7 @@ If a team member needs to use the credentials of a shared account, they can find
 - [Sprint Kick-off](/docs/ceremony-agenda/sprint-kick-off.md)
 - [Daily scrum](/docs/ceremony-agenda/daily-scrum.md)
 - [Backlog refinement](/docs/ceremony-agenda/backlog-refinement.md)
+- [Demo](/docs/ceremony-agenda/demo.md)
 - [Retrospective](/docs/ceremony-agenda/retrospective.md)
 
 ## Guidelines
