@@ -9,10 +9,10 @@ There is no fixed agenda for backlog refinement sessions. However, the team shou
 ### On product boards
 
 - Triage any items in the Inbox.
-- Check the order of ideas in the Idea Backlog.
-- Identify ideas that need to researching and specifying. Either allocate these to individuals on Trello or specify in the backlog refinement session.
+- Review the order of ideas in the Idea Backlog.
+- Identify ideas that require researching and specifying. Either allocate these to individuals on Trello or specify in the backlog refinement session.
 - Triage any cards in the Researching Solution list.
-- Check the order of stories in the Product Backlog.
+- Review the order of stories in the Product Backlog.
 - Estimate any stories that are fully specified.
 
 ### On the Technical Improvements board
