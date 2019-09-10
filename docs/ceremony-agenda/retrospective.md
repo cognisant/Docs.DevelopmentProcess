@@ -10,5 +10,5 @@
   - If actionable improvements are agreed, add them to the retrospective backlog.
   - Review the outcome of the sprint’s retrospective goal(s).
 - On the velocity spreadsheet:
-  - Fill in numbers for achievements, distractions and remaining backlog.
+  - Fill in numbers for distractions and remaining backlog.
   - Make a note of all upcoming planned absences.
