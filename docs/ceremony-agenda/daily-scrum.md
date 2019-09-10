@@ -7,6 +7,4 @@ In turn, each present team member shares:
 - What they have done since the last scrum.
 - What they will do next.
 - Things that are blocking them.
-- Any ongoing distractions.
-- Any upcoming planned absences.
-- Any news that directly affects the whole team.
+- Any ongoing distractions, upcoming absences or news that directly affects the whole team.
