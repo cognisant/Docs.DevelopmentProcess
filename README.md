@@ -130,11 +130,9 @@ If the business member is not happy with the story or there are points that need
 
 ### Estimating Effort
 
-The team uses numeric ‘effort’ points to represent the magnitude/difficulty of stories.
+After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](docs/definition-of-done.md).
 
-These points do not equate to a duration of time it would take the team to complete the story. They are more abstract.
-
-After a story has been specified, the team estimates how much effort they believe it will take to develop a solution that meets the acceptance criteria, and make the story meet the [definition of done](docs/definition-of-done.md). Each member of the team has a deck of [planning poker cards](#planning-poker-cards) which are made up of the Fibonacci numbers from 1–21.
+The team uses numeric ‘effort’ points to represent the magnitude/difficulty of stories. These points are abstract and intended to allow relative comparisons of effort. For example, a story assigned 2 points represents twice as much effort as a story which is assigned a 1. To help define the scale, a [trello board](docs/trello.md#Estimate-Example-Board) is available containing sample historical stories for each point estimate.
 
 The process for estimating a story is as follows.
 

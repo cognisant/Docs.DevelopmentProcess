@@ -60,3 +60,7 @@ The team uses a board on Trello to track outstanding technical improvements. Thi
 - **On Hold** is a list of technical improvements tasks that are not yet ready to be worked on, e.g. utilising tools that are not yet ready for production use.
 - **Epics** is a list of large scale technical improvements tasks, such as updating dependencies across all projects.
 - **Tasks** is a list of fine grained technical improvements tasks that could be worked on, these will often be linked to an epic however may just be a stand alone task that doesn't fit into an epic.
+
+## Estimate Example Board
+
+This board contains example stories for each number of effort points (1-21). This can be referred to while estimating to ensure that our estimates remain consistent over time.
