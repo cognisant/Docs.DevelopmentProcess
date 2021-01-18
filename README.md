@@ -10,7 +10,7 @@ The development team within Corsham Science develops bespoke software products f
    1. [Research](#Research)
       1. [User Stories](#User-Stories)
       1. [Bugs](#Bug-Cards)
-      1. [Technical Debt](#Technical-Debt)
+      1. [Technical Improvements](#Technical-Improvements)
       1. [Epics](#Epics)
       1. [UI Mockups](#UI-Mockups)
       1. [Definition of Ready](#Definition-of-Ready)
@@ -91,13 +91,13 @@ Some cards represent software defects rather than user stories. Descriptions of 
 - **Actual Behaviour** - the actual (incorrect) behaviour exhibited by the system.
 - **Impact** - the business impact of the bug.
 
-#### Technical Debt
+#### Technical Improvements
 
-Some cards represent [technical debt](https://en.wikipedia.org/wiki/Technical_debt) that has accumulated over time for various reasons, these are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
+Some cards represent [technical improvements](https://en.wikipedia.org/wiki/Technical_Improvements) that has accumulated over time for various reasons, these are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
 
-Technical debt cards are managed on a separate [tech debt](docs/trello.md#Tech-Debt-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/trello.md#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
+Technical improvements cards are managed on a separate [tech improvements](docs/trello.md#Tech-Improvements-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/trello.md#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
 
-The format of a technical debt card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
+The format of a technical improvements card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
 
 #### Epics
 
@@ -160,7 +160,7 @@ During the sprint kick-off meeting the team decides what will be worked on durin
 
 ##### Stories
 
-During this meeting the team engages in the following activities to prepare which user stories, bug cards and technical debt will be worked on during the sprint:
+During this meeting the team engages in the following activities to prepare which user stories, bug cards and technical improvements will be worked on during the sprint:
 
 - For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
   - Partially complete stories are not guaranteed to be included in the next sprint, a change in business priority may require a different set of stories to be worked on.
@@ -205,7 +205,7 @@ Stories that were deemed too small to be broken down into fine-grained tasks get
 
 To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories however this is not a fixed limit and may be raised (or lowered) based on sprint composition. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
 
-In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech debt](#Tech-Debt), [support tickets](#support) and [distractions](#distractions).
+In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech improvements](#Tech-Improvements), [support tickets](#support) and [distractions](#distractions).
 
 ##### Daily Scrums
 
