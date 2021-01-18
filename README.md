@@ -124,11 +124,9 @@ A Trello card can be considered ready to be [estimated](#estimating-effort) if i
 
 ##### Business Review
 
-Once the team believes a card is ready to be worked on, the business member who submitted the original Trello card, or another relevant member of the business, must approve the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.
+Where necessary for stories with complex acceptance criteria, the team will return to either the user who submitted the original Trello card, or another relevant member of the business, who will review the story. This ensures that the story accurately describes the original problem, and includes acceptance criteria for an appropriate solution.
 
 If the business member is not happy with the story or there are points that need clarification, the team will rewrite the story to address their concerns.
-
-Simplistic stories, such as bug descriptions, do not require a business review.
 
 ### Estimating Effort
 
