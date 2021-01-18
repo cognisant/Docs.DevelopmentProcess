@@ -10,7 +10,7 @@ As a team we have decided to make a small number of changes to the default Style
 - `SA1309` disabled, `SX1309` and `SX1390S` enabled: Team preference is for `private` fields to be prefixed with an underscore(`_`).
 - `SA1602` disabled: Team preference is to not document items within enumerations.
 
-## Cognisant CodeStyle.CSharp NuGet Packages
+## Corsham Science CodeStyle.CSharp NuGet Packages
 
 Two [Nuget](https://www.nuget.org) packages have been created to automatically set up the StyleCop Analyzers packages according to the above discussed preferences, along with a `stylecop.json` file to set any required preferences.
 
