@@ -107,7 +107,7 @@ The **Current Epics** column (of the [Software Development](docs/trello.md#softw
 
 #### UI Mockups
 
-For stories whose implementation require substantial user interface changes, UI mockups of one or more potential solutions are added to the card. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI works.
+For stories whose implementation require substantial user interface changes, UI mockups of one or more potential solutions may be added to the card in advance of estimation. This helps team members estimate more accurately, and customers more easily imagine how the feature might eventually work. These mockups should be treated as a guide, not necessarily a contract, for exactly how the final UI works.
 
 #### Definition of Ready
 
