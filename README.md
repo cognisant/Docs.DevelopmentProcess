@@ -1,6 +1,6 @@
 # Corsham Science Software Development Process
 
-Corsham Science develops software products for several companies. It uses the [Scrum](<https://en.wikipedia.org/wiki/Scrum_(software_development)>) framework, with development work arranged in two-week [sprints](<https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint>). Together, Corsham Science and its customers define what development work goes into each sprint. This guide describes how that process works.
+The development team within Corsham Science develops bespoke software products for use within the QPHL group. This document describes the processes followed to produce that software.
 
 ## Contents
 
@@ -34,6 +34,8 @@ Corsham Science develops software products for several companies. It uses the [S
    1. [Development](#Development)
 
 ## Process
+
+The development team uses the [Scrum](<https://en.wikipedia.org/wiki/Scrum_(software_development)>) framework, with development work arranged in two-week [sprints](<https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint>). Together, Corsham Science and stakeholders from throughout the QPHL group define what development work goes into each sprint.
 
 ### Discovery
 
