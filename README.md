@@ -158,22 +158,18 @@ During the sprint kick-off meeting the team decides what will be worked on durin
 
 During this meeting the team engages in the following activities to prepare which user stories, bug cards and technical improvements will be worked on during the sprint:
 
-- For any stories partially complete at the end of the previous sprint, the remaining work should be discussed and [estimated](#estimating-effort).
+- For any stories partially complete at the end of the previous sprint, the remaining number of effort points is estimated based on the proportion of outstanding task cards.
   - Partially complete stories are not guaranteed to be included in the next sprint, a change in business priority may require a different set of stories to be worked on.
 - A set of stories should be selected, which the team aims to complete during the new sprint.
   - The stories picked should primarily consist of those relating to the business’ current priorities.
   - The number of story points chosen is slightly higher (+3) than the number achieved in the previous sprint. If necessary, this number can be scaled to account for planned absences or special business circumstances.
-- Each new story is discussed and broken down into a set of fine-grained technical tasks. These tasks are transcribed onto Post-it notes and attached to the [sprint board](#the-sprint-board) to allow us to track work during the sprint.
-  - If a story is deemed small enough it is left as a single large story Post-it.
-  - A story may need to be branched from one different than master, in cases like this the branch name should be written on the story's Post-it.
-  - A story may be considered a high-priority story, this could be for many reasons including an immediate business need, or a story blocking other work either inside the team, or the business. In this case the story will be marked with an asterisk (\*) on the sprint board.
+- Each new story is discussed and broken down into a set of fine-grained technical tasks on the [Jira sprint board](#the-sprint-board). These tasks allow us to track progress during the sprint.
+  - This discussion should include consideration of any required manual test scenarios, which should be documented on the Jira story card. This will be used as a reminder when creating a comprehensive test plan during the sprint.
   - Occasionally during this breakdown, the team discovers some complexity in implementing the feature which had not previously been considered. If this happens, the team may choose to re-estimate the story and, if necessary, change the set of stories selected for the sprint.
 
 ##### Retrospective Goals
 
-The team agrees on a few tasks relating to potential process improvements identified during a previous [retrospective](#Retrospective) to complete during the sprint.
-
-The tasks are represented on the **sprint board** with either a Post-it per task, or may be split down in the same way as user stories. There is a lane on the **sprint board** used to track the completion of the retrospective-related tasks.
+The team reviews the goals selected during the [retrospective](#Retrospective) at the end of the previous sprint. If necessary, tasks can be added to the sprint board in a swimlane for each retrospective goal.
 
 ##### Other Tasks
 
