@@ -273,7 +273,11 @@ The 'notes' section of this spreadsheet is used to record anything that may impa
 
 ### Planning Poker Cards
 
-During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. Six-player decks can be purchased from [Agile Stationary](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
+During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. 
+
+For co-located estimation sessions, physical cards are used. Six-player decks can be purchased from [Agile Stationary](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
+
+Remote estimation sessions are facilitated by the web app [Planning Poker Online](https://planningpokeronline.com).
 
 ### Sprint Board
 
