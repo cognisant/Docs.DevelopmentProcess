@@ -5,7 +5,8 @@ The daily scrum is a quick meeting to update the team’s shared understanding o
 In turn, each present team member answers the following questions:
 
 - What they you done since the last scrum?
-- What will you do next?
-- Is anything blocking you?
+- Is anything blocking you from making progress?
+
+The team will then discuss and allocate work to be completed by the next daily scrum.
 
 If applicable, this is also an appropriate time to share any news that affects the whole team.
