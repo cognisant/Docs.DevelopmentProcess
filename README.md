@@ -223,17 +223,9 @@ During the sprint, any member of the team allocated to learning should spend a p
 
 ##### Tracking Progress
 
-The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time as well as progress during a sprint.
+The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved' are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time as well as progress during a sprint via the dashboard tab.
 
 #### End of Sprint
-
-##### Demos
-
-On the last day of a sprint, the team hosts a demo session to show what has been accomplished during the sprint. This is an open session that can be attended by any interested party, ideally at least one representative from each business department should attend.
-
-The demo is an opportunity for the business to provide feedback on the work done, as well as to facilitate a discussion in the steps required to get these changes into production (such as validation, updating SOPs and user training).
-
-Any issues that are identified during the demo should be added into the idea backlog, so that they can be corrected in a future sprint. This may be either as a user story, or a bug, depending on the nature of the issue.
 
 ##### Retrospective
 
