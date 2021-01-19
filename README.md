@@ -192,11 +192,18 @@ In addition to user stories, the sprint board can also be used to track tasks re
 
 ##### Daily Scrums
 
-On each day of a sprint (excluding the first and last), at 1:30 pm, the team gathers around the sprint board for a meeting called the ‘daily scrum.’ Every team member who can stand should do so; this helps to encourage brevity. During the daily scrum each team member answers the following three questions:
+On each day of a sprint (excluding the first), at 10:00am, the team attends a meeting called the ‘daily scrum’. When team members are co-located, the team will gather around a screen so that everyone can view the [sprint board](#The-Sprint-Board) and the [Velocity Spreadsheet](#Tracking-Progress). When working remotely, one team member will share their screen.
 
-- What did you do since the last meeting to help the team finish the Sprint?
-- What do you plan to do before the next meeting to help the team finish the Sprint?
-- What obstacles are getting in the team's way?
+Every team member who can stand should do so; this helps to encourage brevity. 
+
+During the daily scrum each team member:
+
+- Gives a summary of the tasks they have achieved since the previous daily scrum.
+- Outlines any obstacles which are preventing them from making progress.
+
+Once each team member has spoken, the team will discuss next steps towards the sprint goal, allocating work to people and noting the plan on the dashboard tab of the [Velocity Spreadsheet](#Tracking-Progress).
+
+The dashboard tab displays a graph detailing progress in the current sprint. This should be used to review wether the team is on track overall to meet it's goals, and potentially add more stories if the selected stories are going to be completed before the end of the sprint.
 
 The daily scrum meeting should not be used as a problem-solving or issue resolution meeting. Issues that are raised are usually dealt with immediately after the meeting.
 
