@@ -169,7 +169,7 @@ During this meeting the team engages in the following activities to prepare whic
 
 ##### Retrospective Goals
 
-The team reviews the goals selected during the [retrospective](#Retrospective) at the end of the previous sprint. If necessary, tasks can be added to the sprint board in a swimlane for each retrospective goal.
+The team reviews the goals selected during the [retrospective](#Retrospective) at the end of the previous sprint. If necessary, tasks can be added to the sprint board in a swimlane for each retrospective goal. Retrospective goals for the sprint are also noted on the dashboard tab of the [Sprint Velocity Spreadsheet](#Tracking-Progress).
 
 ##### Other Tasks
 
@@ -180,24 +180,15 @@ The team reviews the goals selected during the [retrospective](#Retrospective) a
 
 ##### The Sprint Board
 
-During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using Post-it notes on a [large physical whiteboard](#sprint-board). This gives the entire team visibility of sprint progress at all times.
+During the sprint, the team's progress on the tasks generated during the sprint kick-off is tracked using cards on a [Jira Board](#sprint-board). This gives the entire team visibility of sprint progress at all times even when working remotely.
 
-![The Corsham Science development team sprint board (captured mid-sprint)](/images/sprint-board.jpeg "The sprint board (captured mid-sprint)")
+The board is arranged into vertical columns and horizontal swimlanes, with one lane per story in the sprint containing subtasks for each of the fine grained tasks determined during sprint kick-off.
 
-Columns named ‘to do’, ‘doing’, ‘verify’, and ‘done’ occupy most of the sprint board. The team uses these to track the progress of work during a sprint.
+As tasks progress, cards are moved through columns named `to do`, `today's commitments`, `doing`, and `done`. By the end of a sprint, all of the task Post-its should have migrated from the ‘To do’ column through the ‘Doing’ column to the ‘Done’ column.
 
-Tasks belonging to stories are represented by Post-its on the board. Each story's task Post-its are grouped into horizontal lanes signified by a title card on the far left.
-The Post-its are moved through the columns on the board as they are worked on during the sprint. By the end of a sprint, all of the task Post-its should have migrated from the ‘To do’ column through the ‘Doing’ and ‘Verify’ columns to the ‘Done’ column.
+To minimise the quantity of partially complete stories at the end of a sprint, the team aims to limit the number of 'work in progress' stories. Team members will be deployed onto in-progress stories in preference to starting new stories, this results in less partially complete work at the end of a sprint.
 
-When starting a task, a team member takes the single task Post-it, adds their initials, and places it in the ‘doing’ column. When the work is complete, the task gets moved to the ‘verify’ column, and the team member begins the next task.
-
-Tasks remain in the verify column until the code has been reviewed by another team member based on the [definition of done](docs/definition-of-done.md). Sometimes it is possible to review a single task, but in practice, an entire story may be reviewed as a whole. If changes are requested as part of the review, these should be recorded onto new Post-its and placed in the ‘to do’ column. Once the review process is completed, the story's task Post-its can be moved to the ‘done’ column.
-
-Stories that were deemed too small to be broken down into fine-grained tasks get grouped into a ‘Single Card Stories’ lane near the top of the board.
-
-To minimise the quantity of partially complete stories at the end of a sprint, a [limit](docs/work-in-progress-limit.md) is imposed on the number of 'work in progress stories' (the number of stories currently being worked on). Currently, this limit is set at 3 stories however this is not a fixed limit and may be raised (or lowered) based on sprint composition. The 'work in progress limit' encourages members of the team to work on stories together. Even when the team is not working at the limit, before starting to work on a new story, team members should consider helping to complete a story which is still in progress.
-
-In addition to user stories, the sprint board is also used to track [retrospective goals](#Retrospective-Goals), [tech improvements](#Tech-Improvements), [support tickets](#support) and [distractions](#distractions).
+In addition to user stories, the sprint board can also be used to track tasks relating to [retrospective goals](#Retrospective-Goals), [tech improvements](#Tech-Improvements), and [support tickets](#support).
 
 ##### Daily Scrums
 
@@ -223,11 +214,9 @@ When a team member is allocated to support, it is their responsibility to track 
 
 During the sprint, any member of the team allocated to learning should spend a portion of their time (currently 20%) on self-improvement. This should be focused on technologies/tools/techniques which could be of benefit to the team in future. Team members have access to the company Pluralsight subscription which provides an array of video training courses but are also free to use other resources that may be relevant.
 
-##### Distractions
+##### Tracking Progress
 
-A distraction is anything that prevents a team member from spending time on planned sprint tasks, e.g. time spent in meetings or responding to support tickets.
-
-These are recorded on Post-it notes with a description and a rough estimate of time spent on them. Distraction Post-its are normally placed in the rightmost column of the board, however, if an ongoing distraction is taking a long time to resolve, the Post-it may be placed in the doing column of the board.
+The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time as well as progress during a sprint.
 
 #### End of Sprint
 
@@ -258,12 +247,6 @@ Members of the team take it in turns to bring snacks for the whole team to this 
 At the end of every sprint, each member of the team records how much time they spent working on projects for different customers in a 'Time Breakdowns' Google sheet. The amount of time each team member was absent from work is also recorded on this spreadsheet. This data is used to proportionately bill customers for the team's time.
 
 This is done as a percentage of the users time over the 2 week period, to a granularity of 1/2 a day (5% of the sprint).
-
-##### Tracking the productivity of the sprint
-
-The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved', 'total distractions (hours)' etc. are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time.
-
-The 'notes' section of this spreadsheet is used to record anything that may impact a future sprint, such as team member absences.
 
 ## Tools
 
