@@ -93,11 +93,11 @@ Some cards represent software defects rather than user stories. Descriptions of 
 
 #### Technical Improvements
 
-Some cards represent [technical improvements](https://en.wikipedia.org/wiki/Technical_Improvements) that has accumulated over time for various reasons, these are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
+Some cards represent [technical improvements](https://en.wikipedia.org/wiki/Technical_Improvements) to resolve technical issues which have accumulated over time, or improve the reliability and security of the software. These are not directly requested by the business, but should still be valuable. Examples of this type of work might include updating dependencies, improving the quality or quantity of automated testing or improving the build/deployment infrastructure.
 
-Technical improvements cards are managed on a separate [tech improvements](docs/trello.md#Tech-Improvements-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/trello.md#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
+Technical improvement cards are managed on a separate [tech improvements](docs/trello.md#Tech-Improvements-Board) Trello board until they are deemed ready to be worked on, at which point they are added to the product backlog of the relevant [Software Development](docs/trello.md#software-development-boards) Trello board and will be available for [estimation](#Estimating-Effort).
 
-The format of a technical improvements card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
+The format of a technical improvement card is not fixed due to the wide ranging nature of these tasks, however in all cases there should be a definition of what ‘done’ looks like for that specific card. For software changes this will usually be writing some acceptance criteria, that can be used with the [definition of done](docs/definition-of-done.md).
 
 #### Epics
 
