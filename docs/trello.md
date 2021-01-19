@@ -48,10 +48,6 @@ Trello cards get visibly tagged with one or more of the following:
 
 Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
 
-## Retrospective Board
-
-The team uses a board on Trello to track both potential retrospective discussion points, and actionable tasks that have been identified as potential future process improvements.
-
 ## Tech Improvements Board
 
 The team uses a board on Trello to track outstanding technical improvements. This is split into four lists:
