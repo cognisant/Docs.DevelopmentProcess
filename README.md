@@ -251,7 +251,7 @@ This is done as a percentage of the users time over the 2 week period, to a gran
 
 ### Planning Poker Cards
 
-During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates. 
+During [estimation](#estimating-effort) sessions, planning poker cards containing Fibonacci numbers (1–21) are used to allow team members to choose, and then simultaneously reveal their estimates.
 
 For co-located estimation sessions, physical cards are used. Six-player decks can be purchased from [Agile Stationary](https://agilestationery.co.uk/products/estimation-poker-cards) using the discount code `THANKYOU` to receive 20% off.
 
@@ -259,34 +259,21 @@ Remote estimation sessions are facilitated by the web app [Planning Poker Online
 
 ### Sprint Board
 
-The board is from Clarus (https://www.clarus.com/gb/products/).
-
-We use magnetic column headers (these are nearly the same as ours - https://www.patboard.com/shop/scrum-magnets-columncards/).
-
-Marking tape is used to separate the board's columns (https://agilestationery.co.uk/products/whiteboard-marking-tape-3mm-black).
-
-### Post-its
-
-We use 'super sticky' Post-its for tasks, stories and distractions:
-
-- [76 x 76 mm](https://www.amazon.co.uk/Post-Notes-Super-Sticky-Value/dp/B00RCJWSE8/)
-- [76 x 127 mm](https://www.amazon.co.uk/Post-Notes-Energetic-Colours-extra/dp/B005IXGAWQ/)
+Our sprint board is stored on Jira at [https://qphl.atlassian.net/](https://qphl.atlassian.net/).
 
 ### Trello
 
 See [trello.md](docs/trello.md).
 
-### Slack
+### Teams
 
-[Slack](https://slack.com) is used by the development team as a communication tool. This allows direct person-to-person communication, as well as channels dedicated to a particular topic which can be joined by many team members.
+Microsoft Teams is used by the development team as a communication tool. This allows direct person-to-person communication, remote video meetings, as well as channels dedicated to a particular topic which can be joined by many team members.
 
-The `#general` channel exists by default and can be used for general team discussions and announcements.
+The `General` channel exists by default and can be used for general team discussions and announcements.
 
-Channels regarding a particular project are prefixed with `proj`, for example, `#proj-order-manager`.
+Additional channels will be created for project related discussion, one channel per project.
 
-Temporary channels for ad-hoc discussions are prefixed with `temp`, for example, `#temp-balances`.
-
-Some channels are used with third-party integrations to provide notifications. These are prefixed with `bot`, for example, `#bot-monitoring`.
+Temporary channels may be created for other purposes, they should be deleted when they are no longer required.
 
 ### TeamCity
 
