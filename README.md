@@ -174,7 +174,7 @@ The team reviews the goals selected during the [retrospective](#Retrospective) a
 ##### Other Tasks
 
 - Two team members are selected to spend a portion of their time [learning](#Learning)
-- One member of the team is selected for each week of the sprint to be on [support](#Support)
+- One member of the team is selected for each week of the sprint to be on [helpdesk triage](#Helpdesk-Triage)
 
 #### During the Sprint
 
@@ -188,7 +188,7 @@ As tasks progress, cards are moved through columns named `to do`, `today's commi
 
 To minimise the quantity of partially complete stories at the end of a sprint, the team aims to limit the number of 'work in progress' stories. Team members will be deployed onto in-progress stories in preference to starting new stories, this results in less partially complete work at the end of a sprint.
 
-In addition to user stories, the sprint board can also be used to track tasks relating to [retrospective goals](#Retrospective-Goals), [tech improvements](#Tech-Improvements), and [support tickets](#support).
+In addition to user stories, the sprint board can also be used to track tasks relating to [retrospective goals](#Retrospective-Goals).
 
 ##### Daily Scrums
 
@@ -213,9 +213,9 @@ To ensure that there are always enough sufficiently specified **user stories** t
 
 Every week, the team has a scheduled meeting to discuss, review, write and estimate **user stories**. During this meeting the businesses priorities should be kept in mind to ensure the correct stories available to be worked on during upcoming sprints.
 
-##### Support
+##### Helpdesk Triage
 
-When a team member is allocated to support, it is their responsibility to track and respond to [support tickets](#Freshservice) as they arrive, and to triage tickets onto [the sprint board](#The-Sprint-Board) where appropriate. The member of the team will write up new tickets on Post-its, then place them on the board as a [distraction](#distractions). Like other tasks, they will be moved across the board as they are completed.
+When a team member is allocated to helpdesk triage, it is their responsibility to track and respond to [IT helpdesk tickets](#Freshservice) as they are assigned to the dev team. These should either be dealt with immediately, or communicated to other members of the team.
 
 ##### Learning
 
