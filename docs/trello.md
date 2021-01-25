@@ -48,15 +48,15 @@ Trello cards get visibly tagged with one or more of the following:
 
 Card descriptions are added to by the development team. To begin with, they include the description provided by the original author. Once agreed, the development team writes a specification that explains the scope of the work and the steps necessary to complete it. The format of a description is described in the [Writing Stories](#writing-stories) section.
 
-## Retrospective Board
+## Tech Improvements Board
 
-The team uses a board on Trello to track both potential retrospective discussion points, and actionable tasks that have been identified as potential future process improvements.
+The team uses a board on Trello to track outstanding technical improvements. This is split into four lists:
 
-## Tech Debt Board
+- **Inbox** is a list of technical improvements tasks that have yet to be prioritised.
+- **On Hold** is a list of technical improvements tasks that are not yet ready to be worked on, e.g. utilising tools that are not yet ready for production use.
+- **Epics** is a list of large scale technical improvements tasks, such as updating dependencies across all projects.
+- **Tasks** is a list of fine grained technical improvements tasks that could be worked on, these will often be linked to an epic however may just be a stand alone task that doesn't fit into an epic.
 
-The team uses a board on Trello to track outstanding technical debt. This is split into four lists:
+## Estimate Example Board
 
-- **Inbox** is a list of technical debt tasks that have yet to be prioritised.
-- **On Hold** is a list of technical debt tasks that are not yet ready to be worked on, e.g. utilising tools that are not yet ready for production use.
-- **Epics** is a list of large scale technical debt tasks, such as updating dependencies across all projects.
-- **Tasks** is a list of fine grained technical debt tasks that could be worked on, these will often be linked to an epic however may just be a stand alone task that doesn't fit into an epic.
+This board contains example stories for each number of effort points (1-21). This can be referred to while estimating to ensure that our estimates remain consistent over time.
