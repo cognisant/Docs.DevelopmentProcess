@@ -176,6 +176,21 @@ The team reviews the goals selected during the [retrospective](#Retrospective) a
 - Two team members are selected to spend a portion of their time [learning](#Learning)
 - One member of the team is selected for each week of the sprint to be on [helpdesk triage](#Helpdesk-Triage)
 
+##### Agenda
+
+- Review the velocity spreadsheet:
+  - Are there planned absences?
+  - Who is monitoring helpdesk tickets during the sprint?
+  - Who has planned learning time during the sprint?
+- Change the Current Sprint Trello list title to reflect the sprint start and end dates.
+- Re-estimate any outstanding work from the last sprint based on the ratio of outstanding/completed subtasks.
+- Record the number of points achieved in the last sprint on the velocity spreadsheet.
+- Pick stories for the sprint.
+- Pick technical improvements for the sprint.
+- Review the retrospective goals selected at the end of the previous sprint. Add work items to the sprint board if necessary.
+- Copy trello card content to the Jira sprint board.
+- Break stories down into tasks, and add Jira sub-tasks.
+
 #### During the Sprint
 
 ##### The Sprint Board
@@ -229,17 +244,13 @@ The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metri
 
 ##### Retrospective
 
-After the demo, the team has a retrospective meeting. During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
+At the end of the sprint, the team has a retrospective meeting. During the retrospective, the team discusses how the sprint went, reflecting on what went well during the sprint, any issues that came up, and how productive the sprint was.
 
 The primary objective of these meetings is to identify improvements that could be made to the development process. This is done by reviewing the discussion points added to the [retrospective board](docs/trello.md#Retrospective-Board) during the sprint, as well as any other topics that a member of the team wishes to discuss.
 
 As a result of these discussions, a number of actionable tasks may be discovered, these should be added to the [retrospective board](docs/trello.md#Retrospective-Board) as a potential future process improvement.
 
-An example of a process improvement derived from a retrospective meeting is [the work in progress limit](work-in-progress-limit.md).
-
-Also during the retrospective, the distractions recorded during the sprint are reviewed. The team attempts to identify groups of distractions that could be reduced with software or process improvements (for example, when a few distractions are caused by the same, or similar, recurring issues). This can lead to cards being added to a Trello board to prompt future action.
-
-Members of the team take it in turns to bring snacks for the whole team to this meeting.
+Retrospectives typically follow the "Retrospective for beginners" format described on [Retromat.org](https://retromat.org/blog/best-retrospective-for-beginners/) but from time to time will include other tasks taken from Retromat or elsewhere.
 
 ##### Time Tracking
 
@@ -302,13 +313,6 @@ Team members use private vaults to manage passwords for their work-related accou
 There are also customer-specific vaults. These are used for managing shared credentials associated with a specific customer, or a software system used by that customer.
 
 If a team member needs to use the credentials of a shared account, they can find them in the relevant vault.
-
-## Ceremony Agenda
-
-- [Sprint Kick-off](/docs/ceremony-agenda/sprint-kick-off.md)
-- [Daily scrum](/docs/ceremony-agenda/daily-scrum.md)
-- [Backlog refinement](/docs/ceremony-agenda/backlog-refinement.md)
-- [Retrospective](/docs/ceremony-agenda/retrospective.md)
 
 ## Guidelines
 
