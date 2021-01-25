@@ -282,7 +282,7 @@ Microsoft Teams is used by the development team as a communication tool. This al
 
 The `General` channel exists by default and can be used for general team discussions and announcements.
 
-Additional channels will be created for project related discussion, one channel per project.
+Additional channels will be created for project related discussion, one channel per project. Wherever possible, all discussions relating to a project should take place in these channels, rather than DMs. This is so that decisions are made in the open, and all team members have the ability to look back in the history of the project to find relevant discussions.
 
 Temporary channels may be created for other purposes, they should be deleted when they are no longer required.
 
