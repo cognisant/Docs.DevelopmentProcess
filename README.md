@@ -5,6 +5,7 @@ The development team within Corsham Science develops bespoke software products f
 ## Contents
 
 1. [Process](#Process)
+   1. [Scrum Master](#Scrum-Master)
    1. [Discovery](#Discovery)
    1. [Triage](#Triage)
    1. [Research](#Research)
@@ -34,6 +35,14 @@ The development team within Corsham Science develops bespoke software products f
 ## Process
 
 The development team uses the [Scrum](<https://en.wikipedia.org/wiki/Scrum_(software_development)>) framework, with development work arranged in two-week [sprints](<https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint>). Together, Corsham Science and stakeholders from throughout the QPHL group define what development work goes into each sprint.
+
+### Scrum Master
+
+The development team does not have a dedicated scrum master, instead a sub-set of scrum master duties will be performed by a member of the development team each sprint, these duties are:
+
+- Facilitation of Scrum ceremonies.
+- Maintaining the burndown chart.
+- ?
 
 ### Discovery
 
@@ -173,6 +182,7 @@ The team reviews the goals selected during the [retrospective](#Retrospective) a
 
 - Two team members are selected to spend a portion of their time [learning](#Learning)
 - One member of the team is selected for each week of the sprint to be on [helpdesk triage](#Helpdesk-Triage)
+- One member of the team is selected for each sprint to be the acting [scrum master](#Scrum-Master)
 
 ##### Agenda
 
