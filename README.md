@@ -207,7 +207,7 @@ In addition to user stories, the sprint board can also be used to track tasks re
 
 On each day of a sprint (excluding the first), at 10:00am, the team attends a meeting called the ‘daily scrum’. When team members are co-located, the team will gather around a screen so that everyone can view the [sprint board](#The-Sprint-Board) and the [Velocity Spreadsheet](#Tracking-Progress). When working remotely, one team member will share their screen.
 
-Every team member who can stand should do so; this helps to encourage brevity. 
+Every team member who can stand should do so, this helps to encourage brevity.
 
 During the daily scrum each team member:
 
@@ -237,6 +237,8 @@ During the sprint, any member of the team allocated to learning should spend a p
 ##### Tracking Progress
 
 The team maintains a 'Sprint Velocity' Google sheet. Every sprint, various metrics such as 'points achieved' are recorded on the spreadsheet. This data is used to track the team's performance (or 'velocity') over time as well as progress during a sprint via the dashboard tab.
+
+**NOTE** The number of points achieved in a sprint is based on complete stories only, stories partially complete will not contribute to the number of points achieved.
 
 #### End of Sprint
 
